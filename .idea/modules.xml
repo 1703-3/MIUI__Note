@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Notes-master.iml" filepath="$PROJECT_DIR$/Notes-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Notes-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Notes-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MIUI__Note_Ultra.iml" filepath="$PROJECT_DIR$/.idea/modules/MIUI__Note_Ultra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MIUI__Note_Ultra.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MIUI__Note_Ultra.app.iml" />
     </modules>
   </component>
 </project>
