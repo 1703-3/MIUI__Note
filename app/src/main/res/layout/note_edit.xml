@@ -15,11 +15,12 @@
      limitations under the License.
 -->
 
-<FrameLayout
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/list_background"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -45,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:background="@drawable/title_alert" />
+                android:src="@drawable/title_alert" />
 
             <TextView
                 android:id="@+id/tv_alert_date"
@@ -85,7 +86,8 @@
 
                 <LinearLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
+                    android:layout_height="fill_parent"
+                    tools:ignore="Orientation">
 
                     <net.micode.notes.ui.NoteEditText
                         android:id="@+id/note_edit_view"
@@ -113,12 +115,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="7dip"
                 android:background="@drawable/bg_color_btn_mask" />
-
-            <TextView
-                android:id="@+id/textCount"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="字数统计" />
         </LinearLayout>
     </LinearLayout>
 
@@ -133,10 +129,10 @@
         android:id="@+id/note_bg_color_selector"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top|right"
-        android:layout_marginRight="8dip"
-        android:layout_marginTop="30dip"
         android:background="@drawable/note_edit_color_selector_panel"
+        android:layout_marginTop="30dip"
+        android:layout_marginRight="8dip"
+        android:layout_gravity="top|right"
         android:visibility="gone">
 
         <FrameLayout
@@ -156,8 +152,8 @@
                 android:layout_gravity="bottom|right"
                 android:layout_marginRight="5dip"
                 android:focusable="false"
-                android:src="@drawable/selected"
-                android:visibility="gone" />
+                android:visibility="gone"
+                android:src="@drawable/selected" />
         </FrameLayout>
 
         <FrameLayout
@@ -175,10 +171,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"
-                android:layout_marginRight="3dip"
                 android:focusable="false"
-                android:src="@drawable/selected"
-                android:visibility="gone" />
+                android:visibility="gone"
+                android:layout_marginRight="3dip"
+                android:src="@drawable/selected" />
         </FrameLayout>
 
         <FrameLayout
@@ -196,10 +192,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"
-                android:layout_marginRight="2dip"
                 android:focusable="false"
-                android:src="@drawable/selected"
-                android:visibility="gone" />
+                android:visibility="gone"
+                android:layout_marginRight="2dip"
+                android:src="@drawable/selected" />
         </FrameLayout>
 
         <FrameLayout
@@ -218,8 +214,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"
                 android:focusable="false"
-                android:src="@drawable/selected"
-                android:visibility="gone" />
+                android:visibility="gone"
+                android:src="@drawable/selected" />
         </FrameLayout>
 
         <FrameLayout
@@ -238,8 +234,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|right"
                 android:focusable="false"
-                android:src="@drawable/selected"
-                android:visibility="gone" />
+                android:visibility="gone"
+                android:src="@drawable/selected" />
         </FrameLayout>
     </LinearLayout>
 
@@ -403,4 +399,14 @@
                 android:src="@drawable/selected" />
         </FrameLayout>
     </LinearLayout>
+
+    <csy.menu.satellitemenulib.view.SatelliteMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu_postion="right_bottom"
+        app:radius="150dp"
+        app:menu_image_width="30dp"
+        app:menu_item_image_width="25dp"
+        android:id="@+id/mSatelliteMenuRightBottom"/>
+
 </FrameLayout>

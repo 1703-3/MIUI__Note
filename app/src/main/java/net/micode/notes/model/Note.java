@@ -35,13 +35,8 @@ import java.util.ArrayList;
 
 
 public class Note {
-    private ContentValues mNoteDiffValues;
-    private NoteData mNoteData;
-
-    public static final int FIRST_MODIFIED = 1;
-    public static final int UNASSIGNED_NOTE_ID = 0;
-    public static final int ILLEGAL_NOTE_ID = -1;
-
+    private final ContentValues mNoteDiffValues;
+    private final NoteData mNoteData;
     private static final String TAG = "Note";
     /**
      * Create a new note id for adding a new note to databases
@@ -53,18 +48,18 @@ public class Note {
         values.put(NoteColumns.CREATED_DATE, createdTime);
         values.put(NoteColumns.MODIFIED_DATE, createdTime);
         values.put(NoteColumns.TYPE, Notes.TYPE_NOTE);
-        values.put(NoteColumns.LOCAL_MODIFIED, FIRST_MODIFIED);
+        values.put(NoteColumns.LOCAL_MODIFIED, 1);
         values.put(NoteColumns.PARENT_ID, folderId);
         Uri uri = context.getContentResolver().insert(Notes.CONTENT_NOTE_URI, values);
 
-        long noteId = UNASSIGNED_NOTE_ID;
+        long noteId = 0;
         try {
-            noteId = Long.valueOf(uri.getPathSegments().get(1));
+            assert uri != null;
+            noteId = Long.parseLong(uri.getPathSegments().get(1));
         } catch (NumberFormatException e) {
             Log.e(TAG, "Get note id error :" + e.toString());
-            noteId = UNASSIGNED_NOTE_ID;
         }
-        if (noteId == ILLEGAL_NOTE_ID) {
+        if (noteId == -1) {
             throw new IllegalStateException("Wrong note id:" + noteId);
         }
         return noteId;
@@ -138,11 +133,11 @@ public class Note {
     private class NoteData {
         private long mTextDataId;
 
-        private ContentValues mTextDataValues;
+        private final ContentValues mTextDataValues;
 
         private long mCallDataId;
 
-        private ContentValues mCallDataValues;
+        private final ContentValues mCallDataValues;
 
         private static final String TAG = "NoteData";
 
@@ -201,7 +196,8 @@ public class Note {
                     Uri uri = context.getContentResolver().insert(Notes.CONTENT_DATA_URI,
                             mTextDataValues);
                     try {
-                        setTextDataId(Long.valueOf(uri.getPathSegments().get(1)));
+                        assert uri != null;
+                        setTextDataId(Long.parseLong(uri.getPathSegments().get(1)));
                     } catch (NumberFormatException e) {
                         Log.e(TAG, "Insert new text data fail with noteId" + noteId);
                         mTextDataValues.clear();
@@ -223,7 +219,8 @@ public class Note {
                     Uri uri = context.getContentResolver().insert(Notes.CONTENT_DATA_URI,
                             mCallDataValues);
                     try {
-                        setCallDataId(Long.valueOf(uri.getPathSegments().get(1)));
+                        assert uri != null;
+                        setCallDataId(Long.parseLong(uri.getPathSegments().get(1)));
                     } catch (NumberFormatException e) {
                         Log.e(TAG, "Insert new call data fail with noteId" + noteId);
                         mCallDataValues.clear();
@@ -242,12 +239,9 @@ public class Note {
                 try {
                     ContentProviderResult[] results = context.getContentResolver().applyBatch(
                             Notes.AUTHORITY, operationList);
-                    return (results == null || results.length == 0 || results[0] == null) ? null
+                    return results.length == 0 || results[0] == null ? null
                             : ContentUris.withAppendedId(Notes.CONTENT_NOTE_URI, noteId);
-                } catch (RemoteException e) {
-                    Log.e(TAG, String.format("%s: %s", e.toString(), e.getMessage()));
-                    return null;
-                } catch (OperationApplicationException e) {
+                } catch (RemoteException | OperationApplicationException e) {
                     Log.e(TAG, String.format("%s: %s", e.toString(), e.getMessage()));
                     return null;
                 }

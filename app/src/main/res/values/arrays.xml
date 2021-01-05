@@ -28,4 +28,14 @@
         <item>Messaging</item>
         <item>Email</item>
     </string-array>
+
+    <array name="drawable_array">
+
+        <item>@drawable/menubutton_item_selector</item>
+        <item>@drawable/menubutton_selector_video</item>
+        <item>@drawable/menubutton_selector_audio</item>
+        <item>@drawable/menubutton_selector_photo</item>
+        <item>@drawable/menubutton_selector_doc</item>
+    </array>
+
 </resources>

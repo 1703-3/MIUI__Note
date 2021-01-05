@@ -15,9 +15,8 @@
      limitations under the License.
 -->
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Notes</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MIUI_Note_Ultra</string>
     <string name="app_widget2x2">Notes 2x2</string>
     <string name="app_widget4x4">Notes 4x4</string>
     <string name="widget_havenot_content">No associated note found, click to create associated note.</string>
@@ -36,10 +35,10 @@
     <string name="note_link_web">Browse web</string>
     <string name="note_link_other">Open map</string>
     <!-- Text export file information -->
-    <string name="file_path">/MIUI/notes/</string>
-    <string name="file_name_txt_format">notes_%s.txt</string>
+    <string name="file_path" translatable="false">/MIUI/notes/</string>
+    <string name="file_name_txt_format" translatable="false">notes_%s.txt</string>
     <!-- notes list string -->
-    <string name="format_folder_files_count">(%d)</string>
+    <string name="format_folder_files_count" translatable="false">(%d)</string>
     <string name="menu_create_folder">New Folder</string>
     <string name="menu_export_text">Export text</string>
     <string name="menu_sync">Sync</string>
@@ -67,12 +66,6 @@
     <string name="menu_send_to_desktop">Send to home</string>
     <string name="menu_alert">Remind me</string>
     <string name="menu_remove_remind">Delete reminder</string>
-    <!-- #####################################################################################  -->
-    <string name="menu_encrypt">Encrypt note</string>
-    <string name="menu_remove_encrypt">Delete encryption</string>
-
-    <string name="menu_set_importance">Set importance</string>
-    <!-- #####################################################################################  -->
     <string name="menu_title_select_folder">Select folder</string>
     <string name="menu_move_parent_folder">Parent folder</string>
     <string name="info_note_enter_desktop">Note added to home</string>
@@ -80,16 +73,6 @@
     <string name="alert_title_delete">Delete selected notes</string>
     <string name="alert_message_delete_notes">Confirm to delete the selected %d notes?</string>
     <string name="alert_message_delete_note">Confirm to delete this note?</string>
-    <!-- #####################################################################################  -->
-    <string name="alert_title_encrypt">Encryption</string>
-    <string name="alert_message_encrypt">Encrypt note successfully, password is %s</string>
-    <string name="alert_message_encrypt_error">Encrypt note unsuccessfully, password input is not same</string>
-    <string name="alert_message_decrypt">Decrypt note successfully</string>
-    <string name="alert_message_decrypt_error">Decrypt note unsuccessfully, password is wrong</string>
-    <string name="alert_message_remove_encrypt">Remove encryption successfully</string>
-
-    <string name="alert_title_importance">Set Importance</string>
-    <!-- #####################################################################################  -->
     <string name="format_move_notes_to_folder">Have moved selected %1$d notes to %2$s folder</string>
     <!-- Error information -->
     <string name="error_sdcard_unmounted">SD card busy, not available now</string>
@@ -101,7 +84,7 @@
     <string name="failed_sdcard_export">Export fail</string>
     <string name="format_exported_file_location">Export text file (%1$s) to SD (%2$s) directory</string>
     <!-- Sync -->
-    <string name="ticker_syncing">Syncing notes...</string>
+    <string name="ticker_syncing">Syncing notes…</string>
     <string name="ticker_success">Sync is successful</string>
     <string name="ticker_fail">Sync is failed</string>
     <string name="ticker_cancel">Sync is canceled</string>
@@ -109,7 +92,7 @@
     <string name="error_sync_network">Sync failed, please check network and account settings</string>
     <string name="error_sync_internal">Sync failed, internal error occurs</string>
     <string name="error_sync_cancelled">Sync is canceled</string>
-    <string name="sync_progress_login">Logging into %1$s...</string>
+    <string name="sync_progress_login">Logging into %1$s…</string>
     <string name="sync_progress_init_list">Getting remote note list...</string>
     <string name="sync_progress_syncing">Synchronize local notes with Google Task...</string>
     <!-- Preferences -->
@@ -117,7 +100,7 @@
     <string name="preferences_account_title">Sync account</string>
     <string name="preferences_account_summary">Sync notes with google task</string>
     <string name="preferences_last_sync_time">Last sync time %1$s</string>
-    <string name="preferences_last_sync_time_format">yyyy-MM-dd hh:mm:ss</string>
+    <string name="preferences_last_sync_time_format" translatable="false">yyyy-MM-dd hh:mm:ss</string>
     <string name="preferences_add_account">Add account</string>
     <string name="preferences_menu_change_account">Change sync account</string>
     <string name="preferences_menu_remove_account">Remove sync account</string>
@@ -142,10 +125,58 @@
     <string name="search">Notes</string>
     <string name="datetime_dialog_ok">set</string>
     <string name="datetime_dialog_cancel">cancel</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="topTitleEn" translatable="false"> </string>
+    <string name="topTitleCn" translatable="false">记点滴</string>
+
+    <string name="topRightTitleEn" translatable="false"> </string>
+    <string name="topRightTitleCn" translatable="false">Mark</string>
+
+    <string name="topLeftTitleEn" translatable="false"> </string>
+    <string name="topLeftTitleCn" translatable="false">时间轴</string>
+
+    <string name="rightTitleEn" translatable="false"> </string>
+    <string name="rightTitleCn" translatable="false">日历</string>
+
+    <string name="leftTitleEn" translatable="false"> </string>
+    <string name="leftTitleCn" translatable="false">写字板</string>
+
+    <string name="bottomRightTitleEn" translatable="false"> </string>
+    <string name="bottomRightTitleCn" translatable="false">设置</string>
+
+    <string name="bottomLeftTitleEn" translatable="false"> </string>
+    <string name="bottomLeftTitleCn" translatable="false">设置</string>
+
+    <string name="centerCircleTitle_1" translatable="false">Start</string>
+    <string name="centerCircleTitle_2" translatable="false">Continue</string>
+    <string name="centerCircleTitle_3" tools:ignore="MissingTranslation">All Done</string>
+
+    <string name="zoom_enabled" tools:ignore="MissingTranslation">Zoom Enabled</string>
+    <string name="zoom_disabled" tools:ignore="MissingTranslation">Zoom Disabled</string>
+
+    <string name="biz_listen_part" tools:ignore="MissingTranslation">Listen</string>
+    <string name="biz_class_title" tools:ignore="MissingTranslation">Regular Class</string>
+    <string name="biz_discussion_class_title" tools:ignore="MissingTranslation">Discussion Class</string>
+
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_text" translatable="false">TextActivity</string>
+
+    <string name="beginning" translatable="false">Beginning</string>
+    <string name="smartDengg" tools:ignore="ExtraTranslation" translatable="false">By : SmartDengg</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login">LOGIN</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="email">Email</string>
+
+
     <plurals name="search_results_title">
-         <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> result for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+        <item quantity="one"><xliff:g example="1" id="number">%1$s</xliff:g> result for \"<xliff:g example="???" id="search">%2$s</xliff:g>\"</item>
         <!-- Case of 0 or 2 or more results. -->
-        <item quantity="other"><xliff:g id="number" example="15">%1$s</xliff:g> results for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
+        <item quantity="other"><xliff:g example="15" id="number">%1$s</xliff:g> results for \"<xliff:g example="???" id="search">%2$s</xliff:g>\"</item>
     </plurals>
 
 </resources>

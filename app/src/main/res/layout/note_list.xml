@@ -17,10 +17,16 @@
 
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/list_background">
+    android:background="@drawable/list_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.NoteEditActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -49,13 +55,22 @@
             android:fadingEdge="@null" />
     </LinearLayout>
 
-    <Button
+    <!--<Button
         android:id="@+id/btn_new_note"
         android:background="@drawable/new_note"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:focusable="false"
-        android:layout_gravity="bottom" />
+        android:layout_gravity="bottom" />-->
 
+    <net.micode.notes.menubutton.GooeyMenu
+        android:id="@+id/gooey_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:fab_radius="@dimen/big_circle_radius"
+        app:gap_between_menu_fab="@dimen/min_gap"
+        app:menu_radius="@dimen/small_circle_radius"
+        app:no_of_menu="5"
+        app:menu_drawable="@array/drawable_array"/>
 
 </FrameLayout>

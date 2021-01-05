@@ -165,14 +165,8 @@ public class Notes {
          * <P> Type : INTEGER (long) </P>
          */
         public static final String VERSION = "version";
-
-        public static final String PASSWORD = "password";
-
-        public static final String IMPORTANCE = "importance";
     }
-    /*
-     * 便签数据在数据库中的表头
-     */
+
     public interface DataColumns {
         /**
          * The unique ID for a row

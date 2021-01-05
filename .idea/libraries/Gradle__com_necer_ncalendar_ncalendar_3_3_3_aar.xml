@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.necer.ncalendar:ncalendar:3.3.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ncalendar-3.3.3.aar/98e1cbebdd245cc5d5989d9ce44d2dd9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ncalendar-3.3.3.aar/98e1cbebdd245cc5d5989d9ce44d2dd9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ncalendar-3.3.3.aar/98e1cbebdd245cc5d5989d9ce44d2dd9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.necer.ncalendar/ncalendar/3.3.3/5ecef970aff6d128872b1c0c175154306f7ed045/ncalendar-3.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
