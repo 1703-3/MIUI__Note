@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+
 package net.micode.notes.data;
 
 import android.net.Uri;
@@ -75,7 +76,7 @@ public class Notes {
         public static final String PARENT_ID = "parent_id";
 
         /**
-         * Created data for note or folder
+         * Created date for note or folder
          * <P> Type: INTEGER (long) </P>
          */
         public static final String CREATED_DATE = "created_date";
@@ -275,5 +276,19 @@ public class Notes {
         public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/call_note";
 
         public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/call_note");
+    }
+
+
+    /**
+     * author: FeilongZuo
+     * AttachMent of Note
+
+     */
+    public static final class AttachMentNote implements DataColumns {
+
+        public static final String CONTENT_TYPE = "vnd.android.cursor.dir/attachment_note";
+        public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/attachment_note";
+        public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/attachment_note");
+
     }
 }

@@ -35,8 +35,8 @@ import java.util.ArrayList;
 
 
 public class Note {
-    private final ContentValues mNoteDiffValues;
-    private final NoteData mNoteData;
+    private ContentValues mNoteDiffValues;
+    private NoteData mNoteData;
     private static final String TAG = "Note";
     /**
      * Create a new note id for adding a new note to databases
@@ -54,10 +54,10 @@ public class Note {
 
         long noteId = 0;
         try {
-            assert uri != null;
-            noteId = Long.parseLong(uri.getPathSegments().get(1));
+            noteId = Long.valueOf(uri.getPathSegments().get(1));
         } catch (NumberFormatException e) {
             Log.e(TAG, "Get note id error :" + e.toString());
+            noteId = 0;
         }
         if (noteId == -1) {
             throw new IllegalStateException("Wrong note id:" + noteId);
@@ -133,11 +133,11 @@ public class Note {
     private class NoteData {
         private long mTextDataId;
 
-        private final ContentValues mTextDataValues;
+        private ContentValues mTextDataValues;
 
         private long mCallDataId;
 
-        private final ContentValues mCallDataValues;
+        private ContentValues mCallDataValues;
 
         private static final String TAG = "NoteData";
 
@@ -196,8 +196,7 @@ public class Note {
                     Uri uri = context.getContentResolver().insert(Notes.CONTENT_DATA_URI,
                             mTextDataValues);
                     try {
-                        assert uri != null;
-                        setTextDataId(Long.parseLong(uri.getPathSegments().get(1)));
+                        setTextDataId(Long.valueOf(uri.getPathSegments().get(1)));
                     } catch (NumberFormatException e) {
                         Log.e(TAG, "Insert new text data fail with noteId" + noteId);
                         mTextDataValues.clear();
@@ -219,8 +218,7 @@ public class Note {
                     Uri uri = context.getContentResolver().insert(Notes.CONTENT_DATA_URI,
                             mCallDataValues);
                     try {
-                        assert uri != null;
-                        setCallDataId(Long.parseLong(uri.getPathSegments().get(1)));
+                        setCallDataId(Long.valueOf(uri.getPathSegments().get(1)));
                     } catch (NumberFormatException e) {
                         Log.e(TAG, "Insert new call data fail with noteId" + noteId);
                         mCallDataValues.clear();
@@ -239,9 +237,12 @@ public class Note {
                 try {
                     ContentProviderResult[] results = context.getContentResolver().applyBatch(
                             Notes.AUTHORITY, operationList);
-                    return results.length == 0 || results[0] == null ? null
+                    return (results == null || results.length == 0 || results[0] == null) ? null
                             : ContentUris.withAppendedId(Notes.CONTENT_NOTE_URI, noteId);
-                } catch (RemoteException | OperationApplicationException e) {
+                } catch (RemoteException e) {
+                    Log.e(TAG, String.format("%s: %s", e.toString(), e.getMessage()));
+                    return null;
+                } catch (OperationApplicationException e) {
                     Log.e(TAG, String.format("%s: %s", e.toString(), e.getMessage()));
                     return null;
                 }

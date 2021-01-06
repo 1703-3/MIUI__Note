@@ -1,47 +1,23 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:1-218:12
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:1-218:12
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:1-218:12
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:1-218:12
-MERGED from [com.android.support:design:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4af9add7ff3a395ea5dd9cdaa289390a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9b780f604e440e1a0b2a73bb36b23783/AndroidManifest.xml:17:1-22:12
-MERGED from [csy.menu.satellitemenulib:SatelliteMenu:1.0.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/SatelliteMenu-1.0.3.aar/6143d2102827fc60dce254c181843084/AndroidManifest.xml:2:1-17:12
-MERGED from [com.necer.ncalendar:ncalendar:3.3.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/ncalendar-3.3.3.aar/98e1cbebdd245cc5d5989d9ce44d2dd9/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b234e05443769f8df2a400ce2b4e29ec/AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife:8.8.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/7b8593949e63f08b9e534746f96511b3/AndroidManifest.xml:2:1-7:12
-MERGED from [com.androidessence:pinchzoomtextview:1.0.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/pinchzoomtextview-1.0.1.aar/33b756bbd5650881f1c841bc6eb0c6a1/AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4b613d61b68a3466423ab437b40f62b0/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/8a31ebfb578427fbc66709883e863c76/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/820d37f44b7e2c68195515493dc9d3c3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9331b55e68477dfcde374ee23e282643/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/92c7d7a8d77cdd6e35d26e1dd6693aa5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b9ba3bc65fdb5cf84679086efd6c5464/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/953713565404f3ac030532d30c119be0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dae2d982d2051edeb5623517e41ceced/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/13b4a25ee8274758c4249ef9cc76ac7d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ec9147cc0d6b5400d20a9067067a1024/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/89d0b57b8bf0973d002847ba1becceed/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/cd9219211d0b52d4a056b501b2440ea2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6b405d8b38bb9fa0ea12763954e23b4c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0fd01e4d0ef7505bd8649d19205cd24d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f91247ac669aaa9aa2767becb0b6155a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f5bb41d7cfa975df52d2dc9d2d21e38d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6df7137b2fd6eae59cfcf22b56814e1c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c13bceddf0685946e54811b56b8170ed/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3387ea219f3d4429b42a0f95c17e83f1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49fcfb996d83e9e4e78a5fc1a7418108/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/86caa4356c5f447add378c4c4886b545/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/aa50411909ee91f69c83c545f036cf8f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/14f24ae3da4e3843ffec5b7871b85eb8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/a5c91c0a47e9a3ff8c8228b5e5edc959/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/53aeff404b848becfb255672efb22440/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/71ef5b522e1cec6ea83e82e3fd162199/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fcad6725bebdac81db378781d5af117b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/634f7c5f95a233e43a833d22932dd35f/AndroidManifest.xml:17:1-25:12
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:1-218:12
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:1-218:12
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:1-218:12
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:1-156:12
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:1-156:12
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:1-156:12
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:1-156:12
+MERGED from [com.github.clans:fab:1.6.4] /Users/akashi/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/3ef4e9d1acd5136cfd53cb8ec6b8e882/AndroidManifest.xml:2:1-14:12
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-3.1.0.aar/6bf827302185259beff63c03fa37fe28/AndroidManifest.xml:17:1-29:12
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:17:1-31:12
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-slh-3.1.0.aar/1bb7ad80174a9012da3007615bc08e04/AndroidManifest.xml:17:1-29:12
+MERGED from [com.android.support:support-v4:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/3cc8fc7be095d68177d9915185914066/AndroidManifest.xml:17:1-27:12
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:20:1-40:12
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/ab4f5650484022d57cf6b914ba43fcd5/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/262709af48cee6e14ed6a1bb0f98b494/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/607fc03af58e4de2fa0c5738e10b3078/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/2ad8a71546062e2986f71cf2e02d59ec/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/cf0b34badde98e0c2283aa5f3566f2be/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:1-156:12
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:1-156:12
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:1-156:12
 	package
 		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:19:5-31
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
@@ -50,383 +26,303 @@ INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifes
 		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:21:5-30
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
-	xmlns:tools
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:17:5-51
-	xsi:schemaLocation
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:22:5-59
 	xmlns:android
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:16:11-69
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:11-69
 	android:versionCode
 		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:20:5-28
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
-	xmlns:xsi
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:18:5-58
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:24:5-81
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:24:22-78
-uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:25:5-88
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:25:22-85
-uses-permission#android.permission.INTERNET
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:26:22-64
-uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:27:5-72
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:27:22-69
-uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:28:5-74
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:28:22-71
-uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:29:5-80
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:29:22-77
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:30:5-71
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:30:22-68
-uses-permission#android.permission.USE_CREDENTIALS
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:31:5-74
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:31:22-71
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:32:5-81
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:32:22-78
-application
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:36:5-216:19
-MERGED from [com.android.support:design:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4af9add7ff3a395ea5dd9cdaa289390a/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4af9add7ff3a395ea5dd9cdaa289390a/AndroidManifest.xml:22:5-20
-MERGED from [csy.menu.satellitemenulib:SatelliteMenu:1.0.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/SatelliteMenu-1.0.3.aar/6143d2102827fc60dce254c181843084/AndroidManifest.xml:11:5-15:19
-MERGED from [csy.menu.satellitemenulib:SatelliteMenu:1.0.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/SatelliteMenu-1.0.3.aar/6143d2102827fc60dce254c181843084/AndroidManifest.xml:11:5-15:19
-MERGED from [com.androidessence:pinchzoomtextview:1.0.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/pinchzoomtextview-1.0.1.aar/33b756bbd5650881f1c841bc6eb0c6a1/AndroidManifest.xml:11:5-15:19
-MERGED from [com.androidessence:pinchzoomtextview:1.0.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/pinchzoomtextview-1.0.1.aar/33b756bbd5650881f1c841bc6eb0c6a1/AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4b613d61b68a3466423ab437b40f62b0/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4b613d61b68a3466423ab437b40f62b0/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/71ef5b522e1cec6ea83e82e3fd162199/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/71ef5b522e1cec6ea83e82e3fd162199/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/634f7c5f95a233e43a833d22932dd35f/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/634f7c5f95a233e43a833d22932dd35f/AndroidManifest.xml:22:5-23:19
-	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/71ef5b522e1cec6ea83e82e3fd162199/AndroidManifest.xml:22:18-91
-	android:supportsRtl
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:40:9-35
-	android:label
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:39:9-41
-	tools:ignore
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:41:9-48
-	android:icon
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:38:9-42
-	android:allowBackup
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:37:9-35
-activity#net.micode.notes.login.LoginActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:42:9-50:20
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:44:13-69
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:43:13-48
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:45:13-49:29
-action#android.intent.action.MAIN
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:46:17-69
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:46:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:48:17-77
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:48:27-74
-activity#net.micode.notes.menu.MainActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:53:9-62:20
-	android:screenOrientation
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:55:13-49
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:56:13-44
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:54:13-46
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:57:13-61:29
-action#android.intent.action.VIEW
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:58:17-69
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:58:25-66
-activity#net.micode.notes.menu.TagActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:63:9-54
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:63:19-51
-activity#net.micode.notes.ui.NotesListActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:64:9-77:20
-	android:label
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:67:13-45
-	android:launchMode
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:68:13-43
-	android:windowSoftInputMode
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:71:13-52
-	android:uiOptions
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:70:13-57
-	android:configChanges
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:66:13-74
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:69:13-45
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:65:13-49
-activity#net.micode.notes.draw.DrawingActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:78:9-87:20
-	android:screenOrientation
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:80:13-49
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:81:13-57
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:79:13-49
-activity#net.micode.notes.me.MeActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:89:9-97:20
-	android:screenOrientation
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:91:13-49
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:92:13-44
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:90:13-42
-activity#net.micode.notes.ui.NoteEditActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:99:9-131:20
-	android:launchMode
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:102:13-43
-	android:configChanges
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:101:13-74
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:103:13-45
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:100:13-48
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:104:13-113:29
-	android:scheme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:105:17-38
-	tools:ignore
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:106:17-47
-category#android.intent.category.DEFAULT
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:109:17-76
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:109:27-73
-data
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:111:17-78
-	android:mimeType
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:111:23-75
-intent-filter#action:name:android.intent.action.INSERT_OR_EDIT+category:name:android.intent.category.DEFAULT+data:mimeType:vnd.android.cursor.item/call_note+data:mimeType:vnd.android.cursor.item/text_note
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:114:13-121:29
-action#android.intent.action.INSERT_OR_EDIT
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:115:17-79
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:115:25-76
-intent-filter#action:name:android.intent.action.SEARCH+category:name:android.intent.category.DEFAULT
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:122:13-126:29
-action#android.intent.action.SEARCH
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:123:17-71
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:123:25-68
-meta-data#android.app.searchable
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:128:13-130:54
-	android:resource
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:130:17-51
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:129:17-54
-activity#net.micode.notes.calendar.TestMonthWeekActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:132:9-140:20
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:134:13-44
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:133:13-59
-activity#net.micode.notes.jnote.JNote_MainActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:141:9-149:20
-	android:label
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:143:13-45
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:142:13-53
-activity#net.micode.notes.jnote.NoteActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:150:9-152:58
-	android:windowSoftInputMode
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:152:13-55
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:151:13-47
-activity#net.micode.notes.jnote.DisplayActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:153:9-59
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:153:19-56
-activity#net.micode.notes.jnote.AboutActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:154:9-57
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:154:19-54
-provider#net.micode.notes.data.NotesProvider
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:157:9-160:43
-	android:authorities
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:159:13-47
-	android:multiprocess
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:160:13-40
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:158:13-47
-receiver#net.micode.notes.widget.NoteWidgetProvider_2x
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:162:9-174:20
-	android:label
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:164:13-50
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:163:13-57
-intent-filter#action:name:android.appwidget.action.APPWIDGET_DELETED+action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:android.intent.action.PRIVACY_MODE_CHANGED
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:165:13-169:29
-action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:166:17-84
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:166:25-81
-action#android.appwidget.action.APPWIDGET_DELETED
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:167:17-85
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:167:25-82
-action#android.intent.action.PRIVACY_MODE_CHANGED
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:168:17-85
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:168:25-82
-meta-data#android.appwidget.provider
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:171:13-173:58
-	android:resource
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:173:17-55
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:172:17-58
-receiver#net.micode.notes.widget.NoteWidgetProvider_4x
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:175:9-187:20
-	android:label
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:177:13-50
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:176:13-57
-receiver#net.micode.notes.ui.AlarmInitReceiver
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:188:9-192:20
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:188:19-55
-intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:189:13-191:29
-action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:190:17-79
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:190:25-76
-receiver#net.micode.notes.ui.AlarmReceiver
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:193:9-195:41
-	android:process
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:195:13-38
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:194:13-45
-activity#net.micode.notes.ui.AlarmAlertActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:197:9-201:78
-	android:label
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:199:13-45
-	android:launchMode
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:200:13-48
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:201:13-75
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:198:13-50
-activity#net.micode.notes.ui.NotesPreferenceActivity
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:202:9-206:63
-	android:label
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:204:13-54
-	android:launchMode
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:205:13-43
-	android:theme
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:206:13-60
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:203:13-55
-service#net.micode.notes.gtask.remote.GTaskSyncService
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:208:9-210:40
-	android:exported
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:210:13-37
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:209:13-58
-meta-data#android.app.default_searchable
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:212:9-214:52
-	android:value
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:214:13-49
-	android:name
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:213:13-58
 uses-sdk
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4af9add7ff3a395ea5dd9cdaa289390a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/4af9add7ff3a395ea5dd9cdaa289390a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9b780f604e440e1a0b2a73bb36b23783/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/9b780f604e440e1a0b2a73bb36b23783/AndroidManifest.xml:20:5-44
-MERGED from [csy.menu.satellitemenulib:SatelliteMenu:1.0.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/SatelliteMenu-1.0.3.aar/6143d2102827fc60dce254c181843084/AndroidManifest.xml:7:5-9:41
-MERGED from [csy.menu.satellitemenulib:SatelliteMenu:1.0.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/SatelliteMenu-1.0.3.aar/6143d2102827fc60dce254c181843084/AndroidManifest.xml:7:5-9:41
-MERGED from [com.necer.ncalendar:ncalendar:3.3.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/ncalendar-3.3.3.aar/98e1cbebdd245cc5d5989d9ce44d2dd9/AndroidManifest.xml:7:5-9:41
-MERGED from [com.necer.ncalendar:ncalendar:3.3.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/ncalendar-3.3.3.aar/98e1cbebdd245cc5d5989d9ce44d2dd9/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b234e05443769f8df2a400ce2b4e29ec/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b234e05443769f8df2a400ce2b4e29ec/AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.8.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/7b8593949e63f08b9e534746f96511b3/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.8.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/butterknife-8.8.1.aar/7b8593949e63f08b9e534746f96511b3/AndroidManifest.xml:5:5-43
-MERGED from [com.androidessence:pinchzoomtextview:1.0.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/pinchzoomtextview-1.0.1.aar/33b756bbd5650881f1c841bc6eb0c6a1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.androidessence:pinchzoomtextview:1.0.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/pinchzoomtextview-1.0.1.aar/33b756bbd5650881f1c841bc6eb0c6a1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4b613d61b68a3466423ab437b40f62b0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/akashi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4b613d61b68a3466423ab437b40f62b0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/8a31ebfb578427fbc66709883e863c76/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/8a31ebfb578427fbc66709883e863c76/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/820d37f44b7e2c68195515493dc9d3c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/820d37f44b7e2c68195515493dc9d3c3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9331b55e68477dfcde374ee23e282643/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/9331b55e68477dfcde374ee23e282643/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/92c7d7a8d77cdd6e35d26e1dd6693aa5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/92c7d7a8d77cdd6e35d26e1dd6693aa5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b9ba3bc65fdb5cf84679086efd6c5464/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/b9ba3bc65fdb5cf84679086efd6c5464/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/953713565404f3ac030532d30c119be0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/953713565404f3ac030532d30c119be0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dae2d982d2051edeb5623517e41ceced/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dae2d982d2051edeb5623517e41ceced/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/13b4a25ee8274758c4249ef9cc76ac7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/13b4a25ee8274758c4249ef9cc76ac7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ec9147cc0d6b5400d20a9067067a1024/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ec9147cc0d6b5400d20a9067067a1024/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/89d0b57b8bf0973d002847ba1becceed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/89d0b57b8bf0973d002847ba1becceed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/cd9219211d0b52d4a056b501b2440ea2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/cd9219211d0b52d4a056b501b2440ea2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6b405d8b38bb9fa0ea12763954e23b4c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6b405d8b38bb9fa0ea12763954e23b4c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0fd01e4d0ef7505bd8649d19205cd24d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0fd01e4d0ef7505bd8649d19205cd24d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f91247ac669aaa9aa2767becb0b6155a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/f91247ac669aaa9aa2767becb0b6155a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f5bb41d7cfa975df52d2dc9d2d21e38d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f5bb41d7cfa975df52d2dc9d2d21e38d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6df7137b2fd6eae59cfcf22b56814e1c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/6df7137b2fd6eae59cfcf22b56814e1c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c13bceddf0685946e54811b56b8170ed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c13bceddf0685946e54811b56b8170ed/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3387ea219f3d4429b42a0f95c17e83f1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/3387ea219f3d4429b42a0f95c17e83f1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49fcfb996d83e9e4e78a5fc1a7418108/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49fcfb996d83e9e4e78a5fc1a7418108/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/86caa4356c5f447add378c4c4886b545/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/86caa4356c5f447add378c4c4886b545/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/aa50411909ee91f69c83c545f036cf8f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/aa50411909ee91f69c83c545f036cf8f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/14f24ae3da4e3843ffec5b7871b85eb8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/14f24ae3da4e3843ffec5b7871b85eb8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/a5c91c0a47e9a3ff8c8228b5e5edc959/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/a5c91c0a47e9a3ff8c8228b5e5edc959/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/53aeff404b848becfb255672efb22440/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/53aeff404b848becfb255672efb22440/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/71ef5b522e1cec6ea83e82e3fd162199/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/71ef5b522e1cec6ea83e82e3fd162199/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fcad6725bebdac81db378781d5af117b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/akashi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fcad6725bebdac81db378781d5af117b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/634f7c5f95a233e43a833d22932dd35f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/634f7c5f95a233e43a833d22932dd35f/AndroidManifest.xml:20:5-44
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
-INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:23:5-44
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:23:5-44
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:23:5-44
+MERGED from [com.github.clans:fab:1.6.4] /Users/akashi/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/3ef4e9d1acd5136cfd53cb8ec6b8e882/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] /Users/akashi/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/3ef4e9d1acd5136cfd53cb8ec6b8e882/AndroidManifest.xml:8:5-10:41
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-3.1.0.aar/6bf827302185259beff63c03fa37fe28/AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-3.1.0.aar/6bf827302185259beff63c03fa37fe28/AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-slh-3.1.0.aar/1bb7ad80174a9012da3007615bc08e04/AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-slh-3.1.0.aar/1bb7ad80174a9012da3007615bc08e04/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/3cc8fc7be095d68177d9915185914066/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/3cc8fc7be095d68177d9915185914066/AndroidManifest.xml:21:5-23:54
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/ab4f5650484022d57cf6b914ba43fcd5/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/ab4f5650484022d57cf6b914ba43fcd5/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/262709af48cee6e14ed6a1bb0f98b494/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/262709af48cee6e14ed6a1bb0f98b494/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/607fc03af58e4de2fa0c5738e10b3078/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/607fc03af58e4de2fa0c5738e10b3078/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/2ad8a71546062e2986f71cf2e02d59ec/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/2ad8a71546062e2986f71cf2e02d59ec/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/cf0b34badde98e0c2283aa5f3566f2be/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/cf0b34badde98e0c2283aa5f3566f2be/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:23:5-44
+INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:23:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/3cc8fc7be095d68177d9915185914066/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:23:5-44
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:23:15-41
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
-		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:25:5-97
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:26:22-77
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:27:22-85
+uses-permission#android.permission.INTERNET
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:28:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:29:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:28:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:29:5-72
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:29:22-69
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:30:5-74
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:30:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:31:22-77
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:32:5-71
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:32:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:33:5-74
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:33:22-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:34:22-78
+application
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:36:5-155:19
+MERGED from [com.github.clans:fab:1.6.4] /Users/akashi/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/3ef4e9d1acd5136cfd53cb8ec6b8e882/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] /Users/akashi/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/3ef4e9d1acd5136cfd53cb8ec6b8e882/AndroidManifest.xml:12:5-20
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-3.1.0.aar/6bf827302185259beff63c03fa37fe28/AndroidManifest.xml:26:5-27:19
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-3.1.0.aar/6bf827302185259beff63c03fa37fe28/AndroidManifest.xml:26:5-27:19
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:26:5-29:19
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:26:5-29:19
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-slh-3.1.0.aar/1bb7ad80174a9012da3007615bc08e04/AndroidManifest.xml:26:5-27:19
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-slh-3.1.0.aar/1bb7ad80174a9012da3007615bc08e04/AndroidManifest.xml:26:5-27:19
+MERGED from [com.android.support:support-v4:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/3cc8fc7be095d68177d9915185914066/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/3cc8fc7be095d68177d9915185914066/AndroidManifest.xml:25:5-20
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:32:5-38:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:32:5-38:19
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/ab4f5650484022d57cf6b914ba43fcd5/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/ab4f5650484022d57cf6b914ba43fcd5/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/262709af48cee6e14ed6a1bb0f98b494/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/262709af48cee6e14ed6a1bb0f98b494/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/607fc03af58e4de2fa0c5738e10b3078/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/607fc03af58e4de2fa0c5738e10b3078/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/2ad8a71546062e2986f71cf2e02d59ec/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/2ad8a71546062e2986f71cf2e02d59ec/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/cf0b34badde98e0c2283aa5f3566f2be/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/cf0b34badde98e0c2283aa5f3566f2be/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:38:9-41
+	android:allowBackup
+		ADDED from [com.nhaarman.listviewanimations:lib-core:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-core-3.1.0.aar/6bf827302185259beff63c03fa37fe28/AndroidManifest.xml:26:18-44
+	android:icon
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:37:9-42
+activity#net.micode.notes.ui.NotesListActivity
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:39:9-52:20
+	android:label
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:42:13-45
+	android:launchMode
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:43:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:46:13-52
+	android:uiOptions
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:45:13-57
+	android:configChanges
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:41:13-74
+	android:theme
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:40:13-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:48:13-51:29
+action#android.intent.action.MAIN
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:50:17-77
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:50:27-74
+activity#net.micode.notes.ui.AttachmentActivity
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:54:9-57:15
+	android:theme
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:55:13-50
+activity#net.micode.notes.ui.NoteEditActivity
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:59:9-87:20
+	android:launchMode
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:62:13-43
+	android:configChanges
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:61:13-74
+	android:theme
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:60:13-48
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:65:13-70:29
+action#android.intent.action.VIEW
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:66:17-69
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:66:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:67:17-76
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:67:27-73
+data
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:68:17-78
+	android:mimeType
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:68:23-75
+intent-filter#android.intent.action.INSERT_OR_EDIT+android.intent.category.DEFAULT
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:72:13-77:29
+action#android.intent.action.INSERT_OR_EDIT
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:73:17-79
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:73:25-76
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:79:13-82:29
+action#android.intent.action.SEARCH
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:80:17-71
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:80:25-68
+meta-data#android.app.searchable
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:84:13-86:54
+	android:resource
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:86:17-51
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:85:17-54
+provider#net.micode.notes.data.NotesProvider
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:89:9-92:43
+	android:authorities
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:91:13-47
+	android:multiprocess
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:92:13-40
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:90:13-63
+receiver#net.micode.notes.widget.NoteWidgetProvider_2x
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:94:9-106:20
+	android:label
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:96:13-50
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:95:13-57
+intent-filter#android.appwidget.action.APPWIDGET_DELETED+android.appwidget.action.APPWIDGET_UPDATE+android.intent.action.PRIVACY_MODE_CHANGED
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:97:13-101:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:98:17-84
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:98:25-81
+action#android.appwidget.action.APPWIDGET_DELETED
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:99:17-85
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:99:25-82
+action#android.intent.action.PRIVACY_MODE_CHANGED
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:100:17-85
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:100:25-82
+meta-data#android.appwidget.provider
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:103:13-105:58
+	android:resource
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:105:17-55
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:104:17-58
+receiver#net.micode.notes.widget.NoteWidgetProvider_4x
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:107:9-120:20
+	android:label
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:109:13-50
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:108:13-57
+receiver#net.micode.notes.ui.AlarmInitReceiver
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:122:9-126:20
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:122:19-55
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:123:13-125:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:124:17-79
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:124:25-76
+receiver#net.micode.notes.ui.AlarmReceiver
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:128:9-131:20
+	android:process
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:130:13-38
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:129:13-61
+activity#net.micode.notes.ui.AlarmAlertActivity
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:133:9-138:20
+	android:label
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:135:13-45
+	android:launchMode
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:136:13-48
+	android:theme
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:137:13-75
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:134:13-50
+activity#net.micode.notes.ui.NotesPreferenceActivity
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:140:9-145:20
+	android:label
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:142:13-54
+	android:launchMode
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:143:13-43
+	android:theme
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:144:13-60
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:141:13-71
+service#net.micode.notes.gtask.remote.GTaskSyncService
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:147:9-150:19
+	android:exported
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:149:13-37
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:148:13-74
+meta-data#android.app.default_searchable
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:152:9-154:52
+	android:value
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:153:13-58
+activity#com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeTouchListenerTestActivity
+ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:27:9-129
+	android:name
+		ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:27:19-126
+activity#com.nhaarman.listviewanimations.itemmanipulation.dragdrop.DynamicListViewTestActivity
+ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:28:9-122
+	android:name
+		ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/lib-manipulation-3.1.0.aar/a3fd6f72db4e412b595800fd55512887/AndroidManifest.xml:28:19-119
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:30:22-73
+provider#com.amitshekhar.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:33:9-37:40
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:36:13-35
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:35:13-71
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] /Users/akashi/.gradle/caches/transforms-1/files-1.1/debug-db-1.0.0.aar/e5d1021dcd0467a51fd807232515bcf1/AndroidManifest.xml:34:13-63

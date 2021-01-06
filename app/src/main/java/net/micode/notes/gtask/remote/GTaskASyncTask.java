@@ -23,6 +23,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+
 import net.micode.notes.R;
 import net.micode.notes.ui.NotesListActivity;
 import net.micode.notes.ui.NotesPreferenceActivity;
@@ -67,7 +68,6 @@ public class GTaskASyncTask extends AsyncTask<Void, String, Integer> {
                 .getString(tickerId), System.currentTimeMillis());
         notification.defaults = Notification.DEFAULT_LIGHTS;
         notification.flags = Notification.FLAG_AUTO_CANCEL;
-
         PendingIntent pendingIntent;
         if (tickerId != R.string.ticker_success) {
             pendingIntent = PendingIntent.getActivity(mContext, 0, new Intent(mContext,
@@ -77,17 +77,8 @@ public class GTaskASyncTask extends AsyncTask<Void, String, Integer> {
             pendingIntent = PendingIntent.getActivity(mContext, 0, new Intent(mContext,
                     NotesListActivity.class), 0);
         }
-        Notification.Builder builder = new Notification.Builder(mContext)
-                .setAutoCancel(true)
-                .setContentTitle("title")
-                .setContentText("describe")
-                .setContentIntent(pendingIntent)
-                //.setSmallIcon(R.drawable.ic_launcher)
-                .setWhen(System.currentTimeMillis())
-                .setOngoing(true);
-        notification=builder.getNotification();
-        /*notification.setLatestEventInfo(mContext, mContext.getString(R.string.app_name), content,
-                pendingIntent);*/
+        notification.setLatestEventInfo(mContext, mContext.getString(R.string.app_name), content,
+                pendingIntent);
         mNotifiManager.notify(GTASK_SYNC_NOTIFICATION_ID, notification);
     }
 

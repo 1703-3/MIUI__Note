@@ -39,7 +39,6 @@ import android.view.ActionMode;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Display;
-import android.view.Gravity;
 import android.view.HapticFeedbackConstants;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -65,7 +64,6 @@ import net.micode.notes.R;
 import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.NoteColumns;
 import net.micode.notes.gtask.remote.GTaskSyncService;
-import net.micode.notes.menubutton.GooeyMenu;
 import net.micode.notes.model.WorkingNote;
 import net.micode.notes.tool.BackupUtils;
 import net.micode.notes.tool.DataUtils;
@@ -80,7 +78,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashSet;
 
-public class NotesListActivity extends Activity implements OnClickListener, OnItemLongClickListener,GooeyMenu.GooeyMenuInterface {
+public class NotesListActivity extends Activity implements OnClickListener, OnItemLongClickListener {
     private static final int FOLDER_NOTE_LIST_QUERY_TOKEN = 0;
 
     private static final int FOLDER_LIST_QUERY_TOKEN      = 1;
@@ -92,15 +90,6 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     private static final int MENU_FOLDER_CHANGE_NAME = 2;
 
     private static final String PREFERENCE_ADD_INTRODUCTION = "net.micode.notes.introduction";
-
-    private GooeyMenu mGooeyMenu;
-    private Toast mToast;
-
-    @Override
-    public void onClick(View v) {
-
-    }
-
 
     private enum ListEditState {
         NOTE_LIST, SUB_FOLDER, CALL_RECORD_FOLDER
@@ -117,6 +106,8 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     private Button mAddNewNote;
 
     private boolean mDispatch;
+
+    private Button menu1;
 
     private int mOriginY;
 
@@ -150,89 +141,12 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.note_list);
-
         initResources();
 
         /**
          * Insert an introduction when user firstly use this application
          */
         setAppInfoFromRawRes();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menubutton_menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void menuOpen() {
-        // showToast("Menu Open");
-
-    }
-
-    @Override
-    public void menuClose() {
-
-        //showToast( "Menu Close");
-    }
-
-    @Override
-    public void menuItemClicked(int menuNumber) {
-        if(menuNumber==5){
-            createNewNote();
-        }
-        else if(menuNumber==0){
-            showCreateOrModifyFolderDialog(true);
-        }
-        else if(menuNumber==1){
-            exportNoteToText();
-        }
-        else if(menuNumber==2){
-            if (isSyncMode()) {
-                if (TextUtils.equals(this.getTitle(), getString(R.string.menu_sync))) {
-                    GTaskSyncService.startSync(this);
-                } else {
-                    GTaskSyncService.cancelSync(this);
-                }
-            } else {
-                startPreferenceActivity();
-            }
-        }
-        else if(menuNumber==3){
-            startPreferenceActivity();
-        }
-        else if(menuNumber==4){
-            onSearchRequested();
-        }
-        //showToast( "Menu item clicked : " + menuNumber);
-
-    }
-
-    private void showToast(String msg){
-        if(mToast!=null){
-            mToast.cancel();
-        }
-
-        mToast= Toast.makeText(this,msg,Toast.LENGTH_SHORT);
-        mToast.setGravity(Gravity.CENTER,0,0);
-        mToast.show();
     }
 
     @Override
@@ -299,6 +213,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
 
     private void initResources() {
         mContentResolver = this.getContentResolver();
+        menu1=(Button)findViewById(R.id.menu);
         mBackgroundQueryHandler = new BackgroundQueryHandler(this.getContentResolver());
         mCurrentFolderId = Notes.ID_ROOT_FOLDER;
         mNotesListView = (ListView) findViewById(R.id.notes_list);
@@ -308,17 +223,15 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         mNotesListView.setOnItemLongClickListener(this);
         mNotesListAdapter = new NotesListAdapter(this);
         mNotesListView.setAdapter(mNotesListAdapter);
-       // mAddNewNote = (Button) findViewById(R.id.btn_new_note);
-       // mAddNewNote.setOnClickListener(this);
-        //mAddNewNote.setOnTouchListener(new NewNoteOnTouchListener());
+        mAddNewNote = (Button) findViewById(R.id.btn_new_note);
+        mAddNewNote.setOnClickListener(this);
+        mAddNewNote.setOnTouchListener(new NewNoteOnTouchListener());
         mDispatch = false;
         mDispatchY = 0;
         mOriginY = 0;
         mTitleBar = (TextView) findViewById(R.id.tv_title_bar);
         mState = ListEditState.NOTE_LIST;
         mModeCallBack = new ModeCallback();
-        mGooeyMenu = (GooeyMenu) findViewById(R.id.gooey_menu);
-        mGooeyMenu.setOnMenuListener(this);
     }
 
     private class ModeCallback implements ListView.MultiChoiceModeListener, OnMenuItemClickListener {
@@ -499,7 +412,9 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     };
 
     private void startAsyncNotesListQuery() {
-        String selection = (mCurrentFolderId == Notes.ID_ROOT_FOLDER) ? ROOT_FOLDER_SELECTION : NORMAL_SELECTION;mBackgroundQueryHandler.startQuery(FOLDER_NOTE_LIST_QUERY_TOKEN, null,
+        String selection = (mCurrentFolderId == Notes.ID_ROOT_FOLDER) ? ROOT_FOLDER_SELECTION
+                : NORMAL_SELECTION;
+        mBackgroundQueryHandler.startQuery(FOLDER_NOTE_LIST_QUERY_TOKEN, null,
                 Notes.CONTENT_NOTE_URI, NoteItemData.PROJECTION, selection, new String[] {
                     String.valueOf(mCurrentFolderId)
                 }, NoteColumns.TYPE + " DESC," + NoteColumns.MODIFIED_DATE + " DESC");
@@ -624,6 +539,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     private void openNode(NoteItemData data) {
         Intent intent = new Intent(this, NoteEditActivity.class);
         intent.setAction(Intent.ACTION_VIEW);
+//        intent.setAction(Intent.ACTION_OPEN_DOCUMENT);
         intent.putExtra(Intent.EXTRA_UID, data.getId());
         this.startActivityForResult(intent, REQUEST_CODE_OPEN_NODE);
     }
@@ -645,7 +561,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         mTitleBar.setVisibility(View.VISIBLE);
     }
 
-   /* public void onClick(View v) {
+    public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_new_note:
                 createNewNote();
@@ -653,7 +569,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
             default:
                 break;
         }
-    }*/
+    }
 
     private void showSoftInput() {
         InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -866,7 +782,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         return true;
     }
 
-  /*  @Override
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_new_folder: {
@@ -904,7 +820,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
                 break;
         }
         return true;
-    }*/
+    }
 
     @Override
     public boolean onSearchRequested() {
@@ -1039,4 +955,6 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         }
         return false;
     }
+    public void OnOpenMenu(View view) {
+        openOptionsMenu();}
 }
