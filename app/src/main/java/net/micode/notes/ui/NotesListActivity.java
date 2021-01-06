@@ -107,6 +107,8 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
 
     private boolean mDispatch;
 
+    private Button menu1;
+
     private int mOriginY;
 
     private int mDispatchY;
@@ -211,6 +213,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
 
     private void initResources() {
         mContentResolver = this.getContentResolver();
+        menu1=(Button)findViewById(R.id.menu);
         mBackgroundQueryHandler = new BackgroundQueryHandler(this.getContentResolver());
         mCurrentFolderId = Notes.ID_ROOT_FOLDER;
         mNotesListView = (ListView) findViewById(R.id.notes_list);
@@ -441,10 +444,6 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         }
     }
 
-    /**
-     * 显示文件夹列表菜单，用于在选中一个到多个便签后选择文件夹进行移动时的界面，并在完成后显示相关信息
-     * @param cursor
-     */
     private void showFolderListMenu(Cursor cursor) {
         AlertDialog.Builder builder = new AlertDialog.Builder(NotesListActivity.this);
         builder.setTitle(R.string.menu_title_select_folder);
@@ -540,9 +539,9 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     private void openNode(NoteItemData data) {
         Intent intent = new Intent(this, NoteEditActivity.class);
         intent.setAction(Intent.ACTION_VIEW);
+//        intent.setAction(Intent.ACTION_OPEN_DOCUMENT);
         intent.putExtra(Intent.EXTRA_UID, data.getId());
         this.startActivityForResult(intent, REQUEST_CODE_OPEN_NODE);
-
     }
 
     private void openFolder(NoteItemData data) {
@@ -956,4 +955,6 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         }
         return false;
     }
+    public void OnOpenMenu(View view) {
+        openOptionsMenu();}
 }

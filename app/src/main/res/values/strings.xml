@@ -17,7 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Notes</string>
+    <string name="app_name">MIUI_Note</string>
     <string name="app_widget2x2">Notes 2x2</string>
     <string name="app_widget4x4">Notes 4x4</string>
     <string name="widget_havenot_content">No associated note found, click to create associated note.</string>
@@ -67,12 +67,6 @@
     <string name="menu_send_to_desktop">Send to home</string>
     <string name="menu_alert">Remind me</string>
     <string name="menu_remove_remind">Delete reminder</string>
-    <!-- #####################################################################################  -->
-    <string name="menu_encrypt">Encrypt note</string>
-    <string name="menu_remove_encrypt">Delete encryption</string>
-
-    <string name="menu_set_importance">Set importance</string>
-    <!-- #####################################################################################  -->
     <string name="menu_title_select_folder">Select folder</string>
     <string name="menu_move_parent_folder">Parent folder</string>
     <string name="info_note_enter_desktop">Note added to home</string>
@@ -80,16 +74,6 @@
     <string name="alert_title_delete">Delete selected notes</string>
     <string name="alert_message_delete_notes">Confirm to delete the selected %d notes?</string>
     <string name="alert_message_delete_note">Confirm to delete this note?</string>
-    <!-- #####################################################################################  -->
-    <string name="alert_title_encrypt">Encryption</string>
-    <string name="alert_message_encrypt">Encrypt note successfully, password is %s</string>
-    <string name="alert_message_encrypt_error">Encrypt note unsuccessfully, password input is not same</string>
-    <string name="alert_message_decrypt">Decrypt note successfully</string>
-    <string name="alert_message_decrypt_error">Decrypt note unsuccessfully, password is wrong</string>
-    <string name="alert_message_remove_encrypt">Remove encryption successfully</string>
-
-    <string name="alert_title_importance">Set Importance</string>
-    <!-- #####################################################################################  -->
     <string name="format_move_notes_to_folder">Have moved selected %1$d notes to %2$s folder</string>
     <!-- Error information -->
     <string name="error_sdcard_unmounted">SD card busy, not available now</string>
@@ -142,6 +126,11 @@
     <string name="search">Notes</string>
     <string name="datetime_dialog_ok">set</string>
     <string name="datetime_dialog_cancel">cancel</string>
+    <string name="notice_by_email">notice by email</string>
+    <string name="notice_email_address">input notice email</string>
+    <string name="pre_sync_titile">sync</string>
+    <string name="pre_bg_color_title">color</string>
+    <string name="pre_email_titile">notice email</string>
     <plurals name="search_results_title">
          <item quantity="one"><xliff:g id="number" example="1">%1$s</xliff:g> result for \"<xliff:g id="search" example="???">%2$s</xliff:g>\"</item>
         <!-- Case of 0 or 2 or more results. -->
