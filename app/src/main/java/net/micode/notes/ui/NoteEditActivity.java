@@ -157,6 +157,8 @@ public class NoteEditActivity extends Activity implements OnClickListener,
     //便签的字体大小选择器
     private View mFontSizeSelector;
 
+    private ImageView imageView1;
+
     //便签编辑器
     private EditText mNoteEditor;
 
@@ -584,6 +586,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         //初始化便签标题栏
         mHeadViewPanel = findViewById(R.id.note_title);
         mNoteHeaderHolder = new HeadViewHolder();
+        imageView1 = (ImageView) findViewById(R.id.menu_more);
         mNoteHeaderHolder.tvModified = (TextView) findViewById(R.id.tv_modified_date);
         mNoteHeaderHolder.ivAlertIcon = (ImageView) findViewById(R.id.iv_alert_icon);
         mNoteHeaderHolder.tvAlertDate = (TextView) findViewById(R.id.tv_alert_date);
@@ -1453,6 +1456,10 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         content = content.replace(TAG_UNCHECKED, "");
         return content.length() > SHORTCUT_ICON_TITLE_MAX_LEN ? content.substring(0,
                 SHORTCUT_ICON_TITLE_MAX_LEN) : content;
+    }
+
+    public void OnOpenMenu(View view) {
+        openOptionsMenu();
     }
 
     /**

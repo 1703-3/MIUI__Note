@@ -105,6 +105,8 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
 
     private Button mAddNewNote;
 
+    private Button menu1;
+
     private boolean mDispatch;
 
     private int mOriginY;
@@ -212,6 +214,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
     private void initResources() {
         mContentResolver = this.getContentResolver();
         mBackgroundQueryHandler = new BackgroundQueryHandler(this.getContentResolver());
+        menu1=(Button)findViewById(R.id.menu);
         mCurrentFolderId = Notes.ID_ROOT_FOLDER;
         mNotesListView = (ListView) findViewById(R.id.notes_list);
         mNotesListView.addFooterView(LayoutInflater.from(this).inflate(R.layout.note_list_footer, null),
@@ -956,4 +959,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         }
         return false;
     }
+
+    public void OnOpenMenu(View view) {
+        openOptionsMenu();}
 }
