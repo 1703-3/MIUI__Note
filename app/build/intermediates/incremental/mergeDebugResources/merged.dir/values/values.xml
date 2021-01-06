@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="format_for_exported_note">
-        <item>-%s</item>      <!-- format_folder_name -->
-        <item>--%s</item>     <!-- format_folder_note_date -->
-        <item>--%s</item>     <!-- format_note_date -->
-        <item>--%s</item>     <!-- format_note_content -->
+        <item>-%s</item>      
+        <item>--%s</item>     
+        <item>--%s</item>     
+        <item>--%s</item>     
     </string-array>
     <string-array name="menu_share_ways">
         <item>Messaging</item>
@@ -32,7 +32,7 @@
     <string name="alert_message_delete_note">Confirm to delete this note?</string>
     <string name="alert_message_delete_notes">Confirm to delete the selected %d notes?</string>
     <string name="alert_title_delete">Delete selected notes</string>
-    <string name="app_name">Notes</string>
+    <string name="app_name">MIUI_Note</string>
     <string name="app_widget2x2">Notes 2x2</string>
     <string name="app_widget4x4">Notes 4x4</string>
     <string name="button_delete">Delete</string>

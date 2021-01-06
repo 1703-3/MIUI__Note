@@ -71,7 +71,7 @@ INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifes
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:25:5-97
+ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:25:5-81
 	android:name
 		ADDED from /Users/akashi/Desktop/MIUI__Note_Ultra/app/src/main/AndroidManifest.xml:25:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
