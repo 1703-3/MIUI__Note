@@ -16,6 +16,7 @@
 
 package net.micode.notes.ui;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -27,9 +28,13 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Paint;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -46,6 +51,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
@@ -71,6 +77,8 @@ import net.micode.notes.ui.PasswordView;
 import net.micode.notes.widget.NoteWidgetProvider_2x;
 import net.micode.notes.widget.NoteWidgetProvider_4x;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -176,6 +184,11 @@ public class NoteEditActivity extends Activity implements OnClickListener,
 
     private static final int SHORTCUT_ICON_TITLE_MAX_LEN = 10;
 
+    private static final int SHORTCUT_ICON_TITLE_MAX_LEN = 10;
+
+    public static final int TAKE_PHOTO = 1;
+    public static final int CHOOSE_PHOTO = 2;
+
     //定义字符串常量 已标记
     public static final String TAG_CHECKED = String.valueOf('\u221A');
     //定义字符串常量 未标记
@@ -187,6 +200,10 @@ public class NoteEditActivity extends Activity implements OnClickListener,
     private String mUserQuery;
     //正则表达式模式
     private Pattern mPattern;
+
+
+
+
 
     /**
      * 重写Activity类的onCreate方法
@@ -205,6 +222,63 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             return;
         }
         initResources();
+
+        Button click1=(Button)findViewById(R.id.background);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("背景设置").setIcon(R.id.background).setMessage("选择方式")
+
+                .setPositiveButton("拍照",new DialogInterface.OnClickListener(){
+
+
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        File outputImage=new File(getExternalCacheDir(),"output_image.jpg");
+                        try {
+                            if (outputImage.exists()){
+                                outputImage.delete();
+                            }
+                            outputImage.createNewFile();
+                        }catch (IOException e){
+                            e.printStackTrace();
+                        }
+                        if (Build.VERSION.SDK_INT < 24) {
+                            imageUri = Uri.fromFile(outputImage);
+                        } else {
+                            imageUri = FileProvider.getUriForFile(NoteEditActivity.this, "com.example.cameraalbumtest.fileprovider", outputImage);
+                        }
+                        // 启动相机程序
+                        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                        intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                        startActivityForResult(intent, TAKE_PHOTO);
+
+                    }
+                } ).setNegativeButton("本地图片",new DialogInterface.OnClickListener(){// 消极
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                if(ContextCompat.checkSelfPermission(NoteEditActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED){
+                    ActivityCompat.requestPermissions(NoteEditActivity.this,new String[]{Manifest.permission.WRITE_APN_SETTINGS},1);
+                }else {
+                    openAlbum();
+                }
+            }
+        }).setNeutralButton("还原",new DialogInterface.OnClickListener(){// 中间级
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                picture.setBackground(null);
+            }
+        });
+        click1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                builder.create().show();
+            }
+        });
+        picture = (EditText) findViewById(R.id.note_edit_view);
+
+
+
     }
 
     /**
@@ -1473,3 +1547,5 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         Toast.makeText(this, resId, duration).show();
     }
 }
+
+
