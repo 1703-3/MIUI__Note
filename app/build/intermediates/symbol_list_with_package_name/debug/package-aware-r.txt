@@ -1035,6 +1035,8 @@ drawable font_normal
 drawable font_size_selector_bg
 drawable font_small
 drawable font_super
+drawable ic_menu_more
+drawable ic_menu_more_dark
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1251,6 +1253,7 @@ id ll_font_normal
 id ll_font_small
 id ll_font_super
 id masked
+id menu
 id menu_alert
 id menu_delete
 id menu_delete_encrypt
@@ -1259,6 +1262,7 @@ id menu_encrypt
 id menu_export_text
 id menu_font_size
 id menu_list_mode
+id menu_more
 id menu_new_folder
 id menu_new_note
 id menu_search

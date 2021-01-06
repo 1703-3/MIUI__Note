@@ -4,6 +4,10 @@
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\edit_yellow.9.png"
     },
     {
+        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_more_dark.png.flat",
+        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_more_dark.png"
+    },
+    {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_attention1.png.flat",
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\attention1.png"
     },
@@ -24,20 +28,20 @@
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\widget_2x_white.png"
     },
     {
-        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_account_text.xml.flat",
-        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\add_account_text.xml"
-    },
-    {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\menu_note_edit.xml.flat",
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\menu\\note_edit.xml"
     },
     {
-        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edit_blue.9.png.flat",
-        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\edit_blue.9.png"
+        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_account_text.xml.flat",
+        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\add_account_text.xml"
     },
     {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lock.png.flat",
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\lock.png"
+    },
+    {
+        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edit_blue.9.png.flat",
+        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\edit_blue.9.png"
     },
     {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_widget_4x_green.png.flat",
@@ -64,12 +68,12 @@
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\raw\\introduction"
     },
     {
-        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_green_up.9.png.flat",
-        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\list_green_up.9.png"
-    },
-    {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edit_red.9.png.flat",
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\edit_red.9.png"
+    },
+    {
+        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_green_up.9.png.flat",
+        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\list_green_up.9.png"
     },
     {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_attention2.png.flat",
@@ -92,20 +96,20 @@
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\settings_header.xml"
     },
     {
-        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\raw-zh-rCN_introduction.flat",
-        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\raw-zh-rCN\\introduction"
-    },
-    {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_widget_4x_white.png.flat",
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\widget_4x_white.png"
     },
     {
-        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_widget_2x_green.png.flat",
-        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\widget_2x_green.png"
+        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\raw-zh-rCN_introduction.flat",
+        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\raw-zh-rCN\\introduction"
     },
     {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_btn_set_color.png.flat",
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\bg_btn_set_color.png"
+    },
+    {
+        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_widget_2x_green.png.flat",
+        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\widget_2x_green.png"
     },
     {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_widget_2x_blue.png.flat",
@@ -198,6 +202,10 @@
     {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg_color_btn_mask.png.flat",
         "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\bg_color_btn_mask.png"
+    },
+    {
+        "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_more.png.flat",
+        "source": "D:\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_more.png"
     },
     {
         "merged": "D:\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_attention4.png.flat",

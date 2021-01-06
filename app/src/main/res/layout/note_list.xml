@@ -57,5 +57,17 @@
         android:focusable="false"
         android:layout_gravity="bottom" />
 
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_menu_more_dark"
+        android:focusable="false"
+        android:onClick="OnOpenMenu"
+        android:padding="30dp"
+        android:visibility="visible" />
+
 
 </FrameLayout>
