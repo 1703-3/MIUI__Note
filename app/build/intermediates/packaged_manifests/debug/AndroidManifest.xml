@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
- Copyright (c) 2010-2011, The MiCode Open Source Community (www.micode.net)
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.micode.notes"
     android:versionCode="1"
     android:versionName="0.1" >
 
     <uses-sdk
-        android:minSdkVersion="22"
-        android:targetSdkVersion="30" />
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
@@ -34,6 +19,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@drawable/icon_app"
         android:label="@string/app_name"
@@ -46,6 +32,10 @@
             android:theme="@style/NoteTheme"
             android:uiOptions="splitActionBarWhenNarrow"
             android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="net.micode.notes.welcome.welcome"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -122,26 +112,22 @@
         </receiver>
         <receiver
             android:name="net.micode.notes.ui.AlarmReceiver"
-            android:process=":remote" >
-        </receiver>
+            android:process=":remote" />
 
         <activity
             android:name="net.micode.notes.ui.AlarmAlertActivity"
             android:label="@string/app_name"
             android:launchMode="singleInstance"
-            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
         <activity
             android:name="net.micode.notes.ui.NotesPreferenceActivity"
             android:label="@string/preferences_title"
             android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Holo.Light" >
-        </activity>
+            android:theme="@android:style/Theme.Holo.Light" />
 
         <service
             android:name="net.micode.notes.gtask.remote.GTaskSyncService"
-            android:exported="false" >
-        </service>
+            android:exported="false" />
 
         <meta-data
             android:name="android.app.default_searchable"
