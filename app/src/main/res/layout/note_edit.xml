@@ -55,6 +55,12 @@
                 android:layout_marginLeft="2dip"
                 android:layout_marginRight="8dip"
                 android:textAppearance="@style/TextAppearanceSecondaryItem" />
+            <!--原始大小按钮-->
+            <Button
+                android:id="@+id/background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "背景设置" />
 
             <ImageButton
                 android:layout_width="wrap_content"

@@ -36,6 +36,14 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.text.Editable;
+
+//新的import
+import android.*;
+import android.support.v4.content.app.ActivityCompat;
+import android.support.v4.content.FileProvider;
+import android.support.v4.content.ContextCompat;
+
+
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
@@ -171,6 +179,12 @@ public class NoteEditActivity extends Activity implements OnClickListener,
     //便签编辑块
     private View mNoteEditorPanel;
 
+    //定义私有变量，便签背景图片，图文混排
+    private EditText picture;
+
+    //定义私有变量 拍照获得的图像
+    private Uri imageUri;
+
     //定义私有变量 活动便签
     private WorkingNote mWorkingNote;
 
@@ -203,8 +217,6 @@ public class NoteEditActivity extends Activity implements OnClickListener,
 
 
 
-
-
     /**
      * 重写Activity类的onCreate方法
      * @param savedInstanceState
@@ -215,21 +227,20 @@ public class NoteEditActivity extends Activity implements OnClickListener,
 
         this.setContentView(R.layout.note_edit);
 
-
         //如果未保存实例状态且当前Activity未初始化完成，则结束当前Activity
         if (savedInstanceState == null && !initActivityState(getIntent())) {
             finish();
             return;
         }
         initResources();
-
+        //background 绑定按钮
         Button click1=(Button)findViewById(R.id.background);
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        //设置dialog的参数
         builder.setTitle("背景设置").setIcon(R.id.background).setMessage("选择方式")
-
+         //设置三个按钮，positive button为拍照,neutral button为本地图片, negative button为还原
                 .setPositiveButton("拍照",new DialogInterface.OnClickListener(){
-
-
+                    //实现拍照功能,调用照相机
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         File outputImage=new File(getExternalCacheDir(),"output_image.jpg");
@@ -241,19 +252,22 @@ public class NoteEditActivity extends Activity implements OnClickListener,
                         }catch (IOException e){
                             e.printStackTrace();
                         }
+                        //判断系统版本，依据版本API获取图像，将File对象转化为封装uri，为图片地址
                         if (Build.VERSION.SDK_INT < 24) {
                             imageUri = Uri.fromFile(outputImage);
                         } else {
                             imageUri = FileProvider.getUriForFile(NoteEditActivity.this, "com.example.cameraalbumtest.fileprovider", outputImage);
                         }
                         // 启动相机程序
+                        //构建一个Intent对象，action为IMAGE_CAPTURE
                         Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                        //调用Intent的putExtra()方法指定图片的存放地址，填入刚刚得到的Uri对象
                         intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
+                        //获取系统现有相机拍摄的图片
                         startActivityForResult(intent, TAKE_PHOTO);
-
                     }
                 } ).setNegativeButton("本地图片",new DialogInterface.OnClickListener(){// 消极
-
+            //打开本地相册
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 if(ContextCompat.checkSelfPermission(NoteEditActivity.this, Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED){
@@ -263,12 +277,14 @@ public class NoteEditActivity extends Activity implements OnClickListener,
                 }
             }
         }).setNeutralButton("还原",new DialogInterface.OnClickListener(){// 中间级
-
+            //清空背景
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 picture.setBackground(null);
             }
         });
+
+        //用处？？？
         click1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -276,9 +292,6 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             }
         });
         picture = (EditText) findViewById(R.id.note_edit_view);
-
-
-
     }
 
     /**
