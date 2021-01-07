@@ -1035,6 +1035,7 @@ drawable font_normal
 drawable font_size_selector_bg
 drawable font_small
 drawable font_super
+drawable ic__back
 drawable ic_menu_more
 drawable ic_menu_more_dark
 drawable ic_mtrl_chip_checked_black
@@ -1240,6 +1241,7 @@ id iv_lock_icon
 id iv_medium_select
 id iv_small_select
 id iv_super_select
+id l1
 id labeled
 id largeLabel
 id left
@@ -1288,6 +1290,7 @@ id note_bg_color_selector
 id note_decryption
 id note_edit_list
 id note_edit_view
+id note_encryption
 id note_item
 id note_title
 id notes_list
@@ -1365,6 +1368,7 @@ id textCount
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1396,6 +1400,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id v1
 id view_offset_helper
 id visible
 id widget_bg_image
