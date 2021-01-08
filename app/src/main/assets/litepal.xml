@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="note" />
+    <version value="1" />
+    <list>
+        <mapping class="net.micode.notes.data.model.Note" />
+    </list>
+</litepal>

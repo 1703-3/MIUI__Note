@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--title-->
+    <dimen name="md_title_1">28sp</dimen>
+    <dimen name="md_title_2">26sp</dimen>
+    <dimen name="md_title_3">24sp</dimen>
+    <dimen name="md_title_4">22sp</dimen>
+    <dimen name="md_title_5">20sp</dimen>
+    <dimen name="md_title_6">18sp</dimen>
+
+    <dimen name="md_quote">20sp</dimen>
+    <dimen name="md_code_block">16sp</dimen>
+    <dimen name="md_normal">18sp</dimen>
+</resources>

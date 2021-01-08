@@ -1,4 +1,7 @@
-#Wed Jan 06 22:05:25 CST 2021
-base.0=/Users/akashi/Desktop/MIUI__Note_Ultra/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Jan 08 11:22:37 CST 2021
+base.0=/Users/akashi/Desktop/markdown_demo/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/Users/akashi/Desktop/markdown_demo/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
