@@ -83,11 +83,11 @@
             <ScrollView
                 android:layout_width="fill_parent"
                 android:layout_height="0dip"
-                android:layout_weight="1"
-                android:scrollbars="none"
-                android:overScrollMode="never"
                 android:layout_gravity="left|top"
-                android:fadingEdgeLength="0dip">
+                android:layout_weight="1"
+                android:fadingEdgeLength="0dip"
+                android:overScrollMode="never"
+                android:scrollbars="none">
 
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -97,20 +97,20 @@
                         android:id="@+id/note_edit_view"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="left|top"
-                        android:background="@null"
                         android:autoLink="all"
+                        android:background="@null"
+                        android:gravity="left|top"
+                        android:lineSpacingMultiplier="1.2"
                         android:linksClickable="false"
                         android:minLines="12"
-                        android:textAppearance="@style/TextAppearancePrimaryItem"
-                        android:lineSpacingMultiplier="1.2" />
+                        android:textAppearance="@style/TextAppearancePrimaryItem" />
 
                     <LinearLayout
                         android:id="@+id/note_edit_list"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
                         android:layout_marginLeft="-10dip"
+                        android:orientation="vertical"
                         android:visibility="gone" />
                 </LinearLayout>
             </ScrollView>
@@ -409,4 +409,27 @@
                 android:src="@drawable/selected" />
         </FrameLayout>
     </LinearLayout>
+
+    <!--新增右下角控件-->
+    <!-- 距离最近底部控件最小距离-->
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/attachment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src = "@drawable/ic_star"
+        />
+
+    <!--新增左下角控件-->
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/add_img_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/attachment_add"
+        />
 </FrameLayout>

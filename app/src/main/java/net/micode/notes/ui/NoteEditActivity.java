@@ -38,11 +38,10 @@ import android.provider.MediaStore;
 import android.text.Editable;
 
 //新的import
-import android.*;
-import android.support.v4.content.app.ActivityCompat;
+//import android.*;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v4.content.ContextCompat;
-
 
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -70,6 +69,8 @@ import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.github.clans.fab.FloatingActionButton;
 
 import net.micode.notes.R;
 import net.micode.notes.data.Notes;
@@ -198,7 +199,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
 
     private static final int SHORTCUT_ICON_TITLE_MAX_LEN = 10;
 
-    private static final int SHORTCUT_ICON_TITLE_MAX_LEN = 10;
+    //private static final int SHORTCUT_ICON_TITLE_MAX_LEN = 10;
 
     public static final int TAKE_PHOTO = 1;
     public static final int CHOOSE_PHOTO = 2;
@@ -207,6 +208,10 @@ public class NoteEditActivity extends Activity implements OnClickListener,
     public static final String TAG_CHECKED = String.valueOf('\u221A');
     //定义字符串常量 未标记
     public static final String TAG_UNCHECKED = String.valueOf('\u25A1');
+
+    //同上
+    private static final int PHOTO_SUCCESS = 3;
+    private static final int CAMERA_SUCCESS = 4;
 
     //线性布局，用于编辑文本
     private LinearLayout mEditTextList;
@@ -233,6 +238,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             return;
         }
         initResources();
+
         //background 绑定按钮
         Button click1=(Button)findViewById(R.id.background);
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -292,6 +298,65 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             }
         });
         picture = (EditText) findViewById(R.id.note_edit_view);
+
+        //添加附件
+        final FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.attachment_button);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(,"touch",Toast.LENGTH_SHORT);
+//                floatingActionButton.setLabelText("touch");
+                Log.d(TAG, "onClick: click");
+                Log.d(TAG, "onClick: note_id: " + mWorkingNote.getNoteId());
+                if(mWorkingNote.getNoteId() == 0){
+                    Toast.makeText(NoteEditActivity.this, "请保存便签后再添加附件",Toast.LENGTH_LONG).show();
+                    return;
+                }
+
+                Intent intent = new Intent(NoteEditActivity.this, AttachmentActivity.class);
+                intent.putExtra("note_id", mWorkingNote.getNoteId());
+                startActivity(intent);
+            }
+        });
+
+        //插入图片
+        final FloatingActionButton floatingActionButton1 = (FloatingActionButton)findViewById(R.id.add_img_button);
+        floatingActionButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NoteEditText e = (NoteEditText) findViewById(R.id.note_edit_view);
+                //e.insertDrawable(R.drawable.attachment_audio);
+
+                Log.d(TAG, "onClick: click add image button");
+                final CharSequence[] items = { "手机相册", "相机拍摄" };
+                //同上，设计dialog样式
+                AlertDialog dlg = new AlertDialog.Builder(NoteEditActivity.this).setTitle("选择图片").setItems(items,
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog,int item) {
+                                //这里item是根据选择的方式,
+                                //在items数组里面定义了两种方式, 拍照的下标为1就调用拍照方法
+                                if(item==1){
+                                    Intent getImageByCamera= new Intent("android.media.action.IMAGE_CAPTURE");
+                                    startActivityForResult(getImageByCamera, CAMERA_SUCCESS);
+                                }else{
+                                    Intent getImage = new Intent(Intent.ACTION_GET_CONTENT);
+                                    getImage.addCategory(Intent.CATEGORY_OPENABLE);    //浏览文件
+                                    getImage.setType("image/*");       //指定浏览图片
+                                    startActivityForResult(getImage, PHOTO_SUCCESS);
+                                }
+                            }
+                        }).create();
+                dlg.show();
+            }
+        });
+
+
+    }
+
+    private void openAlbum() {
+        Intent intent = new Intent("android.intent.action.GET_CONTENT");
+        intent.setType("image/*");       //浏览图片
+        startActivityForResult(intent, CHOOSE_PHOTO);
     }
 
     /**
