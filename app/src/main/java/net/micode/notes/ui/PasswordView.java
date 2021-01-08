@@ -107,7 +107,7 @@ public class PasswordView extends RelativeLayout implements View.OnClickListener
             } else if (i == 10) {
                 map.put("name", "");
             } else if (i == 12) {
-                map.put("name", "<<-");
+                map.put("name", "×");
             } else if (i == 11) {
                 map.put("name", String.valueOf(0));
             }
