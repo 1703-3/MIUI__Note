@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable_attachment_photo.png.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable\\attachment_photo.png"
+    },
+    {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\layout_account_dialog_title.xml.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\account_dialog_title.xml"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_green_single.9.png.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\list_green_single.9.png"
+    },
+    {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable_attachment_video.png.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable\\attachment_video.png"
     },
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_new_note_normal.png.flat",
@@ -196,6 +204,10 @@
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\note_list.xml"
     },
     {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\layout_attachment_layout.xml.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\attachment_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\raw_introduction.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\raw\\introduction"
     },
@@ -228,6 +240,10 @@
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\note_edit.xml"
     },
     {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\layout_attachment_item.xml.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\attachment_item.xml"
+    },
+    {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edit_red.9.png.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\edit_red.9.png"
     },
@@ -242,6 +258,10 @@
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_clock.png.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable_attachment_audio.png.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable\\attachment_audio.png"
     },
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_note_edit_color_selector_panel.png.flat",
@@ -318,6 +338,10 @@
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\layout_note_decryption.xml.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\layout\\note_decryption.xml"
+    },
+    {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable_attachment_add.png.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable\\attachment_add.png"
     },
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_yellow_single.9.png.flat",
@@ -448,6 +472,10 @@
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\attention0.png"
     },
     {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.png.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable\\ic_star.png"
+    },
+    {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\menu_note_edit.xml.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\menu\\note_edit.xml"
     },
@@ -462,6 +490,10 @@
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_app.png.flat",
         "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable-hdpi\\icon_app.png"
+    },
+    {
+        "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable_attachment_file.png.flat",
+        "source": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\src\\main\\res\\drawable\\attachment_file.png"
     },
     {
         "merged": "C:\\Users\\zhouq\\Desktop\\MIUI__Note_Ultra\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_widget_4x_red.png.flat",

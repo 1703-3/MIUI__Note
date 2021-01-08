@@ -4,6 +4,17 @@ ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:1-150:12
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:1-150:12
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:1-150:12
+MERGED from [com.github.clans:fab:1.6.4] F:\Android\.gradle\caches\transforms-2\files-2.1\917c365cfe270a6608714e1dc12fa273\fab-1.6.4\AndroidManifest.xml:2:1-14:12
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\e340a02618791d492dceed0ce2db0cb1\lib-core-3.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\82dccb43f6fb7d35eea778b4a62b861b\lib-core-slh-3.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.android.support:support-v4:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\b0e55e3ddaf5656c134668b134d362b4\support-v4-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:20:1-40:12
+MERGED from [com.android.support:support-fragment:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\c5c1f0618563402a555c964600c2c96f\support-fragment-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\77c604c47a29aa817e38bacf44f8566c\support-core-utils-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\ec78044e96832e0b0535a1998dfe9a11\support-media-compat-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\122a60a1be2d7350a0d1ccad64475eed\support-core-ui-24.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\497b042d7fde88db6c2bd366aa27826c\support-compat-24.2.0\AndroidManifest.xml:17:1-27:12
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:1-150:12
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:1-150:12
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:1-150:12
@@ -25,8 +36,32 @@ uses-sdk
 ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:5-44
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:5-44
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:5-44
+MERGED from [com.github.clans:fab:1.6.4] F:\Android\.gradle\caches\transforms-2\files-2.1\917c365cfe270a6608714e1dc12fa273\fab-1.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] F:\Android\.gradle\caches\transforms-2\files-2.1\917c365cfe270a6608714e1dc12fa273\fab-1.6.4\AndroidManifest.xml:8:5-10:41
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\e340a02618791d492dceed0ce2db0cb1\lib-core-3.1.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\e340a02618791d492dceed0ce2db0cb1\lib-core-3.1.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\82dccb43f6fb7d35eea778b4a62b861b\lib-core-slh-3.1.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\82dccb43f6fb7d35eea778b4a62b861b\lib-core-slh-3.1.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\b0e55e3ddaf5656c134668b134d362b4\support-v4-24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\b0e55e3ddaf5656c134668b134d362b4\support-v4-24.2.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\c5c1f0618563402a555c964600c2c96f\support-fragment-24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\c5c1f0618563402a555c964600c2c96f\support-fragment-24.2.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\77c604c47a29aa817e38bacf44f8566c\support-core-utils-24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\77c604c47a29aa817e38bacf44f8566c\support-core-utils-24.2.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\ec78044e96832e0b0535a1998dfe9a11\support-media-compat-24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\ec78044e96832e0b0535a1998dfe9a11\support-media-compat-24.2.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\122a60a1be2d7350a0d1ccad64475eed\support-core-ui-24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\122a60a1be2d7350a0d1ccad64475eed\support-core-ui-24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\497b042d7fde88db6c2bd366aa27826c\support-compat-24.2.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\497b042d7fde88db6c2bd366aa27826c\support-compat-24.2.0\AndroidManifest.xml:21:5-23:58
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:5-44
 INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\b0e55e3ddaf5656c134668b134d362b4\support-v4-24.2.0\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:5-44
@@ -45,6 +80,8 @@ ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:26:22-85
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:27:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:29:5-67
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:29:5-67
 	android:name
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:27:22-64
 uses-permission#android.permission.READ_CONTACTS
@@ -73,8 +110,32 @@ ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:33:22-78
 application
 ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:35:5-149:19
+MERGED from [com.github.clans:fab:1.6.4] F:\Android\.gradle\caches\transforms-2\files-2.1\917c365cfe270a6608714e1dc12fa273\fab-1.6.4\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] F:\Android\.gradle\caches\transforms-2\files-2.1\917c365cfe270a6608714e1dc12fa273\fab-1.6.4\AndroidManifest.xml:12:5-20
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\e340a02618791d492dceed0ce2db0cb1\lib-core-3.1.0\AndroidManifest.xml:26:5-27:19
+MERGED from [com.nhaarman.listviewanimations:lib-core:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\e340a02618791d492dceed0ce2db0cb1\lib-core-3.1.0\AndroidManifest.xml:26:5-27:19
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:26:5-29:19
+MERGED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:26:5-29:19
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\82dccb43f6fb7d35eea778b4a62b861b\lib-core-slh-3.1.0\AndroidManifest.xml:26:5-27:19
+MERGED from [com.nhaarman.listviewanimations:lib-core-slh:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\82dccb43f6fb7d35eea778b4a62b861b\lib-core-slh-3.1.0\AndroidManifest.xml:26:5-27:19
+MERGED from [com.android.support:support-v4:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\b0e55e3ddaf5656c134668b134d362b4\support-v4-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\b0e55e3ddaf5656c134668b134d362b4\support-v4-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:32:5-38:19
+MERGED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:32:5-38:19
+MERGED from [com.android.support:support-fragment:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\c5c1f0618563402a555c964600c2c96f\support-fragment-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\c5c1f0618563402a555c964600c2c96f\support-fragment-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\77c604c47a29aa817e38bacf44f8566c\support-core-utils-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\77c604c47a29aa817e38bacf44f8566c\support-core-utils-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\ec78044e96832e0b0535a1998dfe9a11\support-media-compat-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\ec78044e96832e0b0535a1998dfe9a11\support-media-compat-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\122a60a1be2d7350a0d1ccad64475eed\support-core-ui-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\122a60a1be2d7350a0d1ccad64475eed\support-core-ui-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\497b042d7fde88db6c2bd366aa27826c\support-compat-24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] F:\Android\.gradle\caches\transforms-2\files-2.1\497b042d7fde88db6c2bd366aa27826c\support-compat-24.2.0\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:37:9-41
+	android:allowBackup
+		ADDED from [com.nhaarman.listviewanimations:lib-core:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\e340a02618791d492dceed0ce2db0cb1\lib-core-3.1.0\AndroidManifest.xml:26:18-44
 	android:icon
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:36:9-42
 activity#net.micode.notes.ui.NotesListActivity
@@ -233,3 +294,25 @@ ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:148:13-49
 	android:name
 		ADDED from C:\Users\zhouq\Desktop\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:147:13-58
+activity#com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeTouchListenerTestActivity
+ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:27:9-129
+	android:name
+		ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:27:19-126
+activity#com.nhaarman.listviewanimations.itemmanipulation.dragdrop.DynamicListViewTestActivity
+ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:28:9-122
+	android:name
+		ADDED from [com.nhaarman.listviewanimations:lib-manipulation:3.1.0] F:\Android\.gradle\caches\transforms-2\files-2.1\fac78cc037b93bd081dd7ff5c3c292d5\lib-manipulation-3.1.0\AndroidManifest.xml:28:19-119
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:30:22-73
+provider#com.amitshekhar.DebugDBInitProvider
+ADDED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:33:9-37:40
+	android:enabled
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:36:13-35
+	android:authorities
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:35:13-71
+	android:exported
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.amitshekhar.android:debug-db:1.0.0] F:\Android\.gradle\caches\transforms-2\files-2.1\d91767919df3b9dc4906d0d53b2914cc\debug-db-1.0.0\AndroidManifest.xml:34:13-63
