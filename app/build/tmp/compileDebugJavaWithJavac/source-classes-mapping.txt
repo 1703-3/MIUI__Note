@@ -9,6 +9,12 @@ net/micode/notes/model/WorkingNote.java
  net.micode.notes.model.WorkingNote$NoteSettingChangedListener
 net/micode/notes/ui/AlarmAlertActivity.java
  net.micode.notes.ui.AlarmAlertActivity
+net/micode/notes/password/PasswordView.java
+ net.micode.notes.password.PasswordView
+ net.micode.notes.password.PasswordView$1
+ net.micode.notes.password.PasswordView$2
+ net.micode.notes.password.PasswordView$3
+ net.micode.notes.password.PasswordView$ViewHolder
 net/micode/notes/tool/BackupUtils.java
  net.micode.notes.tool.BackupUtils
  net.micode.notes.tool.BackupUtils$TextExport
@@ -17,6 +23,8 @@ net/micode/notes/gtask/data/MetaData.java
 net/micode/notes/welcome/welcome.java
  net.micode.notes.welcome.welcome
  net.micode.notes.welcome.welcome$1
+net/micode/notes/menu/menu.java
+ net.micode.notes.menu.menu
 net/micode/notes/gtask/remote/GTaskASyncTask.java
  net.micode.notes.gtask.remote.GTaskASyncTask
  net.micode.notes.gtask.remote.GTaskASyncTask$1
@@ -27,8 +35,6 @@ net/micode/notes/ui/DateTimePickerDialog.java
  net.micode.notes.ui.DateTimePickerDialog$OnDateTimeSetListener
 net/micode/notes/widget/NoteWidgetProvider.java
  net.micode.notes.widget.NoteWidgetProvider
-net/micode/notes/ui/OnPasswordInputFinish.java
- net.micode.notes.ui.OnPasswordInputFinish
 net/micode/notes/data/Notes.java
  net.micode.notes.data.Notes
  net.micode.notes.data.Notes$CallNote
@@ -66,6 +72,8 @@ net/micode/notes/gtask/exception/NetworkFailureException.java
  net.micode.notes.gtask.exception.NetworkFailureException
 net/micode/notes/ui/AlarmInitReceiver.java
  net.micode.notes.ui.AlarmInitReceiver
+net/micode/notes/password/OnPasswordInputFinish.java
+ net.micode.notes.password.OnPasswordInputFinish
 net/micode/notes/ui/FoldersListAdapter.java
  net.micode.notes.ui.FoldersListAdapter
  net.micode.notes.ui.FoldersListAdapter$FolderListItem
@@ -78,6 +86,8 @@ net/micode/notes/ui/NoteEditText.java
  net.micode.notes.ui.NoteEditText$OnTextViewChangeListener
 net/micode/notes/ui/NotesListItem.java
  net.micode.notes.ui.NotesListItem
+net/micode/notes/draw/DrawingBoardView.java
+ net.micode.notes.draw.DrawingBoardView
 net/micode/notes/gtask/data/SqlNote.java
  net.micode.notes.gtask.data.SqlNote
 net/micode/notes/tool/DataUtils.java
@@ -92,12 +102,10 @@ net/micode/notes/gtask/remote/GTaskSyncService.java
 net/micode/notes/ui/DropdownMenu.java
  net.micode.notes.ui.DropdownMenu
  net.micode.notes.ui.DropdownMenu$1
-net/micode/notes/ui/PasswordView.java
- net.micode.notes.ui.PasswordView
- net.micode.notes.ui.PasswordView$1
- net.micode.notes.ui.PasswordView$2
- net.micode.notes.ui.PasswordView$3
- net.micode.notes.ui.PasswordView$ViewHolder
+net/micode/notes/draw/drawActivity.java
+ net.micode.notes.draw.drawActivity
+ net.micode.notes.draw.drawActivity$1
+ net.micode.notes.draw.drawActivity$2
 net/micode/notes/ui/NotesListAdapter.java
  net.micode.notes.ui.NotesListAdapter
  net.micode.notes.ui.NotesListAdapter$AppWidgetAttribute
@@ -121,6 +129,9 @@ net/micode/notes/ui/NotesListActivity.java
  net.micode.notes.ui.NotesListActivity$ModeCallback$2
  net.micode.notes.ui.NotesListActivity$NewNoteOnTouchListener
  net.micode.notes.ui.NotesListActivity$OnListItemClickListener
+net/micode/notes/me/aboutmeActivity.java
+ net.micode.notes.me.aboutmeActivity
+ net.micode.notes.me.aboutmeActivity$1
 net/micode/notes/gtask/exception/ActionFailureException.java
  net.micode.notes.gtask.exception.ActionFailureException
 net/micode/notes/ui/NoteItemData.java

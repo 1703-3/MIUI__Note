@@ -39,7 +39,7 @@
 19-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:16:22-78
 20
 21    <application
-21-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:5-130:19
+21-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:18:5-159:19
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.0.0] C:\Users\wpage\.gradle\caches\transforms-2\files-2.1\4fa96a30a609219e9d73eea686ac383a\core-1.0.0\AndroidManifest.xml:22:18-86
 23        android:debuggable="true"
@@ -49,215 +49,265 @@
 25-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:20:9-41
 26        android:testOnly="true" >
 27        <activity
-27-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:21:9-29:20
-28            android:name="net.micode.notes.ui.NotesListActivity"
-28-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:22:13-49
-29            android:configChanges="keyboardHidden|orientation|screenSize"
-29-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:13-74
-30            android:label="@string/app_name"
-30-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:24:13-45
-31            android:launchMode="singleTop"
-31-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:25:13-43
-32            android:theme="@style/NoteTheme"
-32-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:26:13-45
-33            android:uiOptions="splitActionBarWhenNarrow"
-33-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:27:13-57
-34            android:windowSoftInputMode="adjustPan" >
-34-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:28:13-52
-35        </activity>
-36        <activity
-36-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:9-38:20
-37            android:name="net.micode.notes.welcome.welcome"
-37-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:19-50
-38            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-38-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:32:13-69
-39            <intent-filter>
-39-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:33:13-37:29
-40                <action android:name="android.intent.action.MAIN" />
-40-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:34:17-69
-40-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:34:25-66
-41
-42                <category android:name="android.intent.category.LAUNCHER" />
-42-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:36:17-77
-42-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:36:27-74
-43            </intent-filter>
-44        </activity>
-45        <activity
-45-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:39:9-70:20
-46            android:name="net.micode.notes.ui.NoteEditActivity"
-46-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:40:13-48
-47            android:configChanges="keyboardHidden|orientation|screenSize"
-47-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:41:13-74
-48            android:launchMode="singleTop"
-48-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:42:13-43
-49            android:theme="@style/NoteTheme" >
-49-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:13-45
-50            <intent-filter android:scheme="http" >
-50-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:44:13-52:29
-50-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:44:28-49
-51                <action android:name="android.intent.action.VIEW" />
-51-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:46:17-69
-51-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:46:25-66
-52
-53                <category android:name="android.intent.category.DEFAULT" />
-53-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:48:17-76
-53-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:48:27-73
-54
-55                <data android:mimeType="vnd.android.cursor.item/text_note" />
-55-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:17-78
-55-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:23-75
-56                <data android:mimeType="vnd.android.cursor.item/call_note" />
-56-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:17-78
-56-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:23-75
-57            </intent-filter>
-58            <intent-filter>
-58-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:53:13-60:29
-59                <action android:name="android.intent.action.INSERT_OR_EDIT" />
-59-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:54:17-79
-59-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:54:25-76
-60
-61                <category android:name="android.intent.category.DEFAULT" />
-61-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:48:17-76
-61-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:48:27-73
-62
-63                <data android:mimeType="vnd.android.cursor.item/text_note" />
-63-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:17-78
-63-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:23-75
-64                <data android:mimeType="vnd.android.cursor.item/call_note" />
-64-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:17-78
-64-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:23-75
-65            </intent-filter>
-66            <intent-filter>
-66-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:61:13-65:29
-67                <action android:name="android.intent.action.SEARCH" />
-67-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:62:17-71
-67-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:62:25-68
-68
-69                <category android:name="android.intent.category.DEFAULT" />
-69-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:48:17-76
-69-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:48:27-73
-70            </intent-filter>
-71
-72            <meta-data
-72-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:67:13-69:54
-73                android:name="android.app.searchable"
-73-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:68:17-54
-74                android:resource="@xml/searchable" />
-74-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:69:17-51
-75        </activity>
-76
-77        <provider
-77-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:72:9-75:43
-78            android:name="net.micode.notes.data.NotesProvider"
-78-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:73:13-47
-79            android:authorities="micode_notes"
-79-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:74:13-47
-80            android:multiprocess="true" />
-80-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:75:13-40
-81
-82        <receiver
-82-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:77:9-89:20
-83            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
-83-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:78:13-57
-84            android:label="@string/app_widget2x2" >
-84-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:13-50
-85            <intent-filter>
-85-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:80:13-84:29
-86                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-86-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:81:17-84
-86-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:81:25-81
-87                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
-87-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:82:17-85
-87-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:82:25-82
-88                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
-88-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:83:17-85
-88-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:83:25-82
-89            </intent-filter>
-90
-91            <meta-data
-91-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:86:13-88:58
-92                android:name="android.appwidget.provider"
-92-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:87:17-58
-93                android:resource="@xml/widget_2x_info" />
-93-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:88:17-55
-94        </receiver>
-95        <receiver
-95-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:90:9-102:20
-96            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
-96-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:91:13-57
-97            android:label="@string/app_widget4x4" >
-97-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:92:13-50
-98            <intent-filter>
-98-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:80:13-84:29
-99                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-99-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:81:17-84
-99-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:81:25-81
-100                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
-100-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:82:17-85
-100-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:82:25-82
-101                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
-101-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:83:17-85
-101-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:83:25-82
-102            </intent-filter>
-103
-104            <meta-data
-104-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:86:13-88:58
-105                android:name="android.appwidget.provider"
-105-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:87:17-58
-106                android:resource="@xml/widget_4x_info" />
-106-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:88:17-55
-107        </receiver>
-108        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
-108-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:103:9-107:20
-108-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:103:19-55
-109            <intent-filter>
-109-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:104:13-106:29
-110                <action android:name="android.intent.action.BOOT_COMPLETED" />
-110-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:105:17-79
-110-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:105:25-76
-111            </intent-filter>
-112        </receiver>
-113        <receiver
-113-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:108:9-110:50
-114            android:name="net.micode.notes.ui.AlarmReceiver"
-114-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:109:13-45
-115            android:process=":remote" />
-115-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:110:13-38
+27-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:22:9-24:72
+28            android:name="net.micode.notes.menu.menu"
+28-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:23:13-38
+29            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+29-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:24:13-69
+30        <activity
+30-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:25:9-33:20
+31            android:name="net.micode.notes.welcome.welcome"
+31-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:26:13-44
+32            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+32-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:27:13-69
+33            <intent-filter>
+33-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:28:13-32:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:29:17-69
+34-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:29:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:17-77
+36-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:34:9-47:20
+40            android:name="net.micode.notes.ui.NotesListActivity"
+40-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:35:13-49
+41            android:configChanges="keyboardHidden|orientation|screenSize"
+41-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:36:13-74
+42            android:label="@string/app_name"
+42-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:37:13-45
+43            android:launchMode="singleTop"
+43-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:38:13-43
+44            android:theme="@style/NoteTheme"
+44-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:39:13-45
+45            android:uiOptions="splitActionBarWhenNarrow"
+45-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:40:13-57
+46            android:windowSoftInputMode="adjustPan" >
+46-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:41:13-52
+47            <intent-filter>
+47-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:42:13-46:29
+48                <action android:name="android.intent.action.VIEW" />
+48-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:17-69
+48-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:17-77
+50-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:49:9-56:20
+54            android:name="net.micode.notes.me.aboutmeActivity"
+54-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:49:19-53
+55            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+55-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:50:13-69
+56            <intent-filter>
+56-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:42:13-46:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:17-69
+57-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:17-77
+59-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:58:9-66:20
+63            android:name="net.micode.notes.draw.drawActivity"
+63-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:59:13-46
+64            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+64-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:60:13-69
+65            <intent-filter>
+65-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:42:13-46:29
+66                <action android:name="android.intent.action.VIEW" />
+66-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:17-69
+66-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:17-77
+68-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:31:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:67:9-99:20
+72            android:name="net.micode.notes.ui.NoteEditActivity"
+72-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:68:13-48
+73            android:configChanges="keyboardHidden|orientation|screenSize"
+73-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:69:13-74
+74            android:launchMode="singleTop"
+74-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:70:13-43
+75            android:theme="@style/NoteTheme" >
+75-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:71:13-45
+76            <intent-filter android:scheme="http" >
+76-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:72:13-81:29
+76-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:73:17-38
+77                <action android:name="android.intent.action.VIEW" />
+77-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:17-69
+77-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:43:25-66
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:77:17-76
+79-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:77:27-73
+80
+81                <data android:mimeType="vnd.android.cursor.item/text_note" />
+81-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:17-78
+81-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:23-75
+82                <data android:mimeType="vnd.android.cursor.item/call_note" />
+82-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:17-78
+82-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:23-75
+83            </intent-filter>
+84            <intent-filter>
+84-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:82:13-89:29
+85                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+85-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:83:17-79
+85-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:83:25-76
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:77:17-76
+87-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:77:27-73
+88
+89                <data android:mimeType="vnd.android.cursor.item/text_note" />
+89-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:17-78
+89-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:23-75
+90                <data android:mimeType="vnd.android.cursor.item/call_note" />
+90-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:17-78
+90-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:79:23-75
+91            </intent-filter>
+92            <intent-filter>
+92-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:90:13-94:29
+93                <action android:name="android.intent.action.SEARCH" />
+93-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:91:17-71
+93-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:91:25-68
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:77:17-76
+95-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:77:27-73
+96            </intent-filter>
+97
+98            <meta-data
+98-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:96:13-98:54
+99                android:name="android.app.searchable"
+99-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:97:17-54
+100                android:resource="@xml/searchable" />
+100-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:98:17-51
+101        </activity>
+102
+103        <provider
+103-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:101:9-104:43
+104            android:name="net.micode.notes.data.NotesProvider"
+104-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:102:13-47
+105            android:authorities="micode_notes"
+105-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:103:13-47
+106            android:multiprocess="true" />
+106-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:104:13-40
+107
+108        <receiver
+108-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:106:9-118:20
+109            android:name="net.micode.notes.widget.NoteWidgetProvider_2x"
+109-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:107:13-57
+110            android:label="@string/app_widget2x2" >
+110-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:108:13-50
+111            <intent-filter>
+111-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:109:13-113:29
+112                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+112-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:110:17-84
+112-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:110:25-81
+113                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+113-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:111:17-85
+113-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:111:25-82
+114                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+114-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:112:17-85
+114-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:112:25-82
+115            </intent-filter>
 116
-117        <activity
-117-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:112:9-116:87
-118            android:name="net.micode.notes.ui.AlarmAlertActivity"
-118-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:113:13-50
-119            android:label="@string/app_name"
-119-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:114:13-45
-120            android:launchMode="singleInstance"
-120-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:115:13-48
-121            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
-121-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:116:13-75
-122        <activity
-122-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:117:9-121:72
-123            android:name="net.micode.notes.ui.NotesPreferenceActivity"
-123-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:118:13-55
-124            android:label="@string/preferences_title"
-124-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:119:13-54
-125            android:launchMode="singleTop"
-125-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:120:13-43
-126            android:theme="@android:style/Theme.Holo.Light" />
-126-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:121:13-60
-127
-128        <service
-128-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:123:9-125:48
-129            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
-129-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:124:13-58
-130            android:exported="false" />
-130-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:125:13-37
-131
-132        <meta-data
-132-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:127:9-129:52
-133            android:name="android.app.default_searchable"
-133-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:128:13-58
-134            android:value=".ui.NoteEditActivity" />
-134-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:129:13-49
-135    </application>
-136
-137</manifest>
+117            <meta-data
+117-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:115:13-117:58
+118                android:name="android.appwidget.provider"
+118-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:116:17-58
+119                android:resource="@xml/widget_2x_info" />
+119-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:117:17-55
+120        </receiver>
+121        <receiver
+121-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:119:9-131:20
+122            android:name="net.micode.notes.widget.NoteWidgetProvider_4x"
+122-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:120:13-57
+123            android:label="@string/app_widget4x4" >
+123-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:121:13-50
+124            <intent-filter>
+124-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:109:13-113:29
+125                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+125-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:110:17-84
+125-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:110:25-81
+126                <action android:name="android.appwidget.action.APPWIDGET_DELETED" />
+126-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:111:17-85
+126-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:111:25-82
+127                <action android:name="android.intent.action.PRIVACY_MODE_CHANGED" />
+127-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:112:17-85
+127-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:112:25-82
+128            </intent-filter>
+129
+130            <meta-data
+130-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:115:13-117:58
+131                android:name="android.appwidget.provider"
+131-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:116:17-58
+132                android:resource="@xml/widget_4x_info" />
+132-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:117:17-55
+133        </receiver>
+134        <receiver android:name="net.micode.notes.ui.AlarmInitReceiver" >
+134-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:132:9-136:20
+134-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:132:19-55
+135            <intent-filter>
+135-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:133:13-135:29
+136                <action android:name="android.intent.action.BOOT_COMPLETED" />
+136-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:134:17-79
+136-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:134:25-76
+137            </intent-filter>
+138        </receiver>
+139        <receiver
+139-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:137:9-139:41
+140            android:name="net.micode.notes.ui.AlarmReceiver"
+140-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:138:13-45
+141            android:process=":remote" />
+141-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:139:13-38
+142
+143        <activity
+143-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:141:9-145:78
+144            android:name="net.micode.notes.ui.AlarmAlertActivity"
+144-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:142:13-50
+145            android:label="@string/app_name"
+145-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:143:13-45
+146            android:launchMode="singleInstance"
+146-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:144:13-48
+147            android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar" />
+147-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:145:13-75
+148        <activity
+148-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:146:9-150:63
+149            android:name="net.micode.notes.ui.NotesPreferenceActivity"
+149-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:147:13-55
+150            android:label="@string/preferences_title"
+150-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:148:13-54
+151            android:launchMode="singleTop"
+151-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:149:13-43
+152            android:theme="@android:style/Theme.Holo.Light" />
+152-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:150:13-60
+153
+154        <service
+154-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:152:9-154:40
+155            android:name="net.micode.notes.gtask.remote.GTaskSyncService"
+155-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:153:13-58
+156            android:exported="false" />
+156-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:154:13-37
+157
+158        <meta-data
+158-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:156:9-158:52
+159            android:name="android.app.default_searchable"
+159-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:157:13-58
+160            android:value=".ui.NoteEditActivity" />
+160-->D:\MIUI__Note_Ultra\app\src\main\AndroidManifest.xml:158:13-49
+161    </application>
+162
+163</manifest>
