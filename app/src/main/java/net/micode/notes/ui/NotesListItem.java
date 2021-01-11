@@ -97,7 +97,7 @@ public class NotesListItem extends LinearLayout {
                     mAlert.setVisibility(View.GONE);
                 }
                 if (data.hasPassword()) {
-                    mLock.setImageResource(R.drawable.lock);
+                    mLock.setImageResource(R.drawable.ic_lock);
                     mLock.setVisibility(View.VISIBLE);
                 } else {
                     mLock.setVisibility(View.GONE);
@@ -109,19 +109,13 @@ public class NotesListItem extends LinearLayout {
         if(data.hasImportance()){
             switch (data.getImportance()) {
                 case 1:
-                    mLabel.setImageResource(R.drawable.attention1);
+                    mLabel.setImageResource(R.drawable.ic_2);
                     break;
                 case 2:
-                    mLabel.setImageResource(R.drawable.attention2);
+                    mLabel.setImageResource(R.drawable.ic_4);
                     break;
                 case 3:
-                    mLabel.setImageResource(R.drawable.attention3);
-                    break;
-                case 4:
-                    mLabel.setImageResource(R.drawable.attention4);
-                    break;
-                case 5:
-                    mLabel.setImageResource(R.drawable.attention5);
+                    mLabel.setImageResource(R.drawable.ic_importance);
                     break;
                 default:
                    // mLabel.setImageResource(R.drawable.attention0);

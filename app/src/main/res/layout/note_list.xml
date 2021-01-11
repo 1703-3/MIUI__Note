@@ -63,7 +63,7 @@
         android:layout_height="30dp"
         android:layout_gravity="right|bottom"
         android:layout_margin="10dp"
-        android:background="@drawable/ic_menu_more_dark"
+        android:background="@drawable/ic_settings"
         android:focusable="false"
         android:onClick="OnOpenMenu"
         android:padding="30dp"

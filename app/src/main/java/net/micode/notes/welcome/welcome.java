@@ -4,6 +4,8 @@ import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import net.micode.notes.R;
+import net.micode.notes.menu.menu;
+import net.micode.notes.model.Note;
 import net.micode.notes.ui.NotesListActivity;
 
 import java.util.Timer;
@@ -20,7 +22,7 @@ public class welcome extends AppCompatActivity {
         TimerTask timerTask=new TimerTask() {
             @Override
             public void run() {
-                Intent intent1=new Intent(welcome.this, NotesListActivity.class);
+                Intent intent1=new Intent(welcome.this, menu.class);
                 startActivity(intent1);
                 welcome.this.finish();
             }

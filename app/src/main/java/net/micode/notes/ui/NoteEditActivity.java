@@ -62,12 +62,13 @@ import net.micode.notes.data.Notes;
 import net.micode.notes.data.Notes.TextNote;
 import net.micode.notes.model.WorkingNote;
 import net.micode.notes.model.WorkingNote.NoteSettingChangedListener;
+import net.micode.notes.password.OnPasswordInputFinish;
 import net.micode.notes.tool.DataUtils;
 import net.micode.notes.tool.ResourceParser;
 import net.micode.notes.tool.ResourceParser.TextAppearanceResources;
 import net.micode.notes.ui.DateTimePickerDialog.OnDateTimeSetListener;
 import net.micode.notes.ui.NoteEditText.OnTextViewChangeListener;
-import net.micode.notes.ui.PasswordView;
+import net.micode.notes.password.PasswordView;
 import net.micode.notes.widget.NoteWidgetProvider_2x;
 import net.micode.notes.widget.NoteWidgetProvider_4x;
 
@@ -167,7 +168,6 @@ public class NoteEditActivity extends Activity implements OnClickListener,
 
     //定义私有变量 活动便签
     private WorkingNote mWorkingNote;
-
     //定义私有变量 共享设置 用来保存配置参数
     private SharedPreferences mSharedPrefs;
     //定义私有变量 字体大小Id
@@ -473,7 +473,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
             pwdView.getCancelImageView().setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(NoteEditActivity.this, "Return", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(NoteEditActivity.this, "Return", Toast.LENGTH_SHORT).show();
                     finish();
                 }
             });
@@ -597,6 +597,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         mNoteEditorPanel = findViewById(R.id.sv_note_edit);
         //初始化便签背景选择界面
         mNoteBgColorSelector = findViewById(R.id.note_bg_color_selector);
+
         /**
          * 对所有颜色选择按钮设置监听器
          */
@@ -675,7 +676,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         //获取点击目标
         int id = v.getId();
         //点击设置背景色图标 or 点击颜色图标 or 点击字体图标
-        if (id == R.id.btn_set_bg_color) {
+       if (id == R.id.btn_set_bg_color) {
             //将便签背景选择器界面设为可见
             mNoteBgColorSelector.setVisibility(View.VISIBLE);
             //将备选颜色界面设为可见
@@ -930,7 +931,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         pwdView.getCancelImageView().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(NoteEditActivity.this, "Return from Step1", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(NoteEditActivity.this, "Return from Step1", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });
@@ -966,7 +967,7 @@ public class NoteEditActivity extends Activity implements OnClickListener,
         pwdViewRepeat.getCancelImageView().setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(NoteEditActivity.this, "Return from Step2", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(NoteEditActivity.this, "Return from Step2", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });
